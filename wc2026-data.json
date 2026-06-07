@@ -1,0 +1,3060 @@
+{
+  "meta": {
+    "tournament": "FIFA World Cup 2026",
+    "hosts": "USA · Canada · Mexico",
+    "updated": "2026-06-07 05:23",
+    "updatedBy": "initial",
+    "timezone": "CEST (UTC+2)",
+    "note": "Edit results only via admin.html. Group standings, Golden Boot and knockout bracket compute automatically."
+  },
+  "groupOrder": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "koDates": {
+    "R32": {
+      "label": "Round of 32",
+      "start": "Jun 28",
+      "end": "Jul 3"
+    },
+    "R16": {
+      "label": "Round of 16",
+      "start": "Jul 4",
+      "end": "Jul 7"
+    },
+    "QF": {
+      "label": "Quarter-finals",
+      "start": "Jul 9",
+      "end": "Jul 11"
+    },
+    "SF": {
+      "label": "Semi-finals",
+      "start": "Jul 14",
+      "end": "Jul 15"
+    },
+    "TP": {
+      "label": "Third-place",
+      "start": "Jul 18",
+      "end": "Jul 18"
+    },
+    "F": {
+      "label": "Final",
+      "start": "Jul 19",
+      "end": "Jul 19"
+    }
+  },
+  "teams": {
+    "MEX": {
+      "name": "Mexico",
+      "iso": "mx",
+      "group": "A",
+      "rank": 15,
+      "conf": "CONCACAF",
+      "best": "Quarter-finals (1970, 1986)",
+      "players": [
+        {
+          "id": "mex-1",
+          "name": "Guillermo Ochoa",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mex-2",
+          "name": "Edson Álvarez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-3",
+          "name": "Hirving Lozano",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-4",
+          "name": "Santiago Giménez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-5",
+          "name": "Raúl Jiménez",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "RSA": {
+      "name": "South Africa",
+      "iso": "za",
+      "group": "A",
+      "rank": 62,
+      "conf": "CAF",
+      "best": "Group stage",
+      "players": [
+        {
+          "id": "rsa-1",
+          "name": "Ronwen Williams",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "rsa-2",
+          "name": "Percy Tau",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-3",
+          "name": "Themba Zwane",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "rsa-4",
+          "name": "Lyle Foster",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "KOR": {
+      "name": "South Korea",
+      "iso": "kr",
+      "group": "A",
+      "rank": 23,
+      "conf": "AFC",
+      "best": "Fourth place (2002)",
+      "players": [
+        {
+          "id": "kor-1",
+          "name": "Son Heung-min",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "kor-2",
+          "name": "Lee Kang-in",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-3",
+          "name": "Kim Min-jae",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-4",
+          "name": "Hwang Hee-chan",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "CZE": {
+      "name": "Czechia",
+      "iso": "cz",
+      "group": "A",
+      "rank": 36,
+      "conf": "UEFA",
+      "best": "Runner-up (1934, 1962 as Czechoslovakia)",
+      "players": [
+        {
+          "id": "cze-1",
+          "name": "Patrik Schick",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cze-2",
+          "name": "Tomáš Souček",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-3",
+          "name": "Tomáš Holeš",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-4",
+          "name": "Adam Hložek",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "CAN": {
+      "name": "Canada",
+      "iso": "ca",
+      "group": "B",
+      "rank": 40,
+      "conf": "CONCACAF",
+      "best": "Group stage (1986, 2022)",
+      "players": [
+        {
+          "id": "can-1",
+          "name": "Alphonso Davies",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "can-2",
+          "name": "Jonathan David",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "can-3",
+          "name": "Stephen Eustáquio",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "can-4",
+          "name": "Cyle Larin",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "BIH": {
+      "name": "Bosnia & Herzegovina",
+      "iso": "ba",
+      "group": "B",
+      "rank": 74,
+      "conf": "UEFA",
+      "best": "Group stage (2014)",
+      "players": [
+        {
+          "id": "bih-1",
+          "name": "Edin Džeko",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bih-2",
+          "name": "Miralem Pjanić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-3",
+          "name": "Sead Kolašinac",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-4",
+          "name": "Ermedin Demirović",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "QAT": {
+      "name": "Qatar",
+      "iso": "qa",
+      "group": "B",
+      "rank": 53,
+      "conf": "AFC",
+      "best": "Group stage (2022)",
+      "players": [
+        {
+          "id": "qat-1",
+          "name": "Akram Afif",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "qat-2",
+          "name": "Almoez Ali",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "qat-3",
+          "name": "Hassan Al-Haydos",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "qat-4",
+          "name": "Saad Al-Sheeb",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "SUI": {
+      "name": "Switzerland",
+      "iso": "ch",
+      "group": "B",
+      "rank": 20,
+      "conf": "UEFA",
+      "best": "Quarter-finals (1934, 1938, 1954)",
+      "players": [
+        {
+          "id": "sui-1",
+          "name": "Granit Xhaka",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sui-2",
+          "name": "Manuel Akanji",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sui-3",
+          "name": "Breel Embolo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sui-4",
+          "name": "Dan Ndoye",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sui-5",
+          "name": "Gregor Kobel",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
+      "iso": "br",
+      "group": "C",
+      "rank": 6,
+      "conf": "CONMEBOL",
+      "best": "Winners (1958,1962,1970,1994,2002)",
+      "players": [
+        {
+          "id": "bra-1",
+          "name": "Vinícius Júnior",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bra-2",
+          "name": "Rodrygo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bra-3",
+          "name": "Endrick",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bra-4",
+          "name": "Bruno Guimarães",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bra-5",
+          "name": "Alisson",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "MAR": {
+      "name": "Morocco",
+      "iso": "ma",
+      "group": "C",
+      "rank": 8,
+      "conf": "CAF",
+      "best": "Fourth place (2022)",
+      "players": [
+        {
+          "id": "mar-1",
+          "name": "Achraf Hakimi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-2",
+          "name": "Brahim Díaz",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-3",
+          "name": "Ayoub El Kaabi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-4",
+          "name": "Sofyan Amrabat",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-5",
+          "name": "Bilal El Khannouss",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "HAI": {
+      "name": "Haiti",
+      "iso": "ht",
+      "group": "C",
+      "rank": 84,
+      "conf": "CONCACAF",
+      "best": "Group stage (1974)",
+      "players": [
+        {
+          "id": "hai-1",
+          "name": "Duckens Nazon",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-2",
+          "name": "Frantzdy Pierrot",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-3",
+          "name": "Carlens Arcus",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "SCO": {
+      "name": "Scotland",
+      "iso": "gb-sct",
+      "group": "C",
+      "rank": 34,
+      "conf": "UEFA",
+      "best": "Group stage",
+      "players": [
+        {
+          "id": "sco-1",
+          "name": "Andy Robertson",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-2",
+          "name": "Scott McTominay",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-3",
+          "name": "John McGinn",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-4",
+          "name": "Che Adams",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "USA": {
+      "name": "United States",
+      "iso": "us",
+      "group": "D",
+      "rank": 16,
+      "conf": "CONCACAF",
+      "best": "Third place (1930)",
+      "players": [
+        {
+          "id": "usa-1",
+          "name": "Christian Pulisic",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "usa-2",
+          "name": "Weston McKennie",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "usa-3",
+          "name": "Tyler Adams",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "usa-4",
+          "name": "Gio Reyna",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "usa-5",
+          "name": "Matt Turner",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "PAR": {
+      "name": "Paraguay",
+      "iso": "py",
+      "group": "D",
+      "rank": 48,
+      "conf": "CONMEBOL",
+      "best": "Quarter-finals (2010)",
+      "players": [
+        {
+          "id": "par-1",
+          "name": "Miguel Almirón",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-2",
+          "name": "Antonio Sanabria",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "par-3",
+          "name": "Gustavo Gómez",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "AUS": {
+      "name": "Australia",
+      "iso": "au",
+      "group": "D",
+      "rank": 24,
+      "conf": "AFC",
+      "best": "Round of 16 (2006, 2022)",
+      "players": [
+        {
+          "id": "aus-1",
+          "name": "Mat Ryan",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "aus-2",
+          "name": "Jackson Irvine",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "aus-3",
+          "name": "Mitchell Duke",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "aus-4",
+          "name": "Riley McGree",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "TUR": {
+      "name": "Türkiye",
+      "iso": "tr",
+      "group": "D",
+      "rank": 27,
+      "conf": "UEFA",
+      "best": "Third place (2002)",
+      "players": [
+        {
+          "id": "tur-1",
+          "name": "Hakan Çalhanoğlu",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-2",
+          "name": "Arda Güler",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-3",
+          "name": "Kenan Yıldız",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-4",
+          "name": "Kerem Aktürkoğlu",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "GER": {
+      "name": "Germany",
+      "iso": "de",
+      "group": "E",
+      "rank": 10,
+      "conf": "UEFA",
+      "best": "Winners (1954,1974,1990,2014)",
+      "players": [
+        {
+          "id": "ger-1",
+          "name": "Jamal Musiala",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ger-2",
+          "name": "Florian Wirtz",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ger-3",
+          "name": "Kai Havertz",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ger-4",
+          "name": "Joshua Kimmich",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "iso": "ec",
+      "group": "E",
+      "rank": 38,
+      "conf": "CONMEBOL",
+      "best": "Round of 16 (2006)",
+      "players": [
+        {
+          "id": "ecu-1",
+          "name": "Moisés Caicedo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ecu-2",
+          "name": "Enner Valencia",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ecu-3",
+          "name": "Pervis Estupiñán",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "iso": "ci",
+      "group": "E",
+      "rank": 42,
+      "conf": "CAF",
+      "best": "Group stage (2006,2010,2014)",
+      "players": [
+        {
+          "id": "civ-1",
+          "name": "Sébastien Haller",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-2",
+          "name": "Franck Kessié",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-3",
+          "name": "Simon Adingra",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-4",
+          "name": "Nicolas Pépé",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "CUW": {
+      "name": "Curaçao",
+      "iso": "cw",
+      "group": "E",
+      "rank": 82,
+      "conf": "CONCACAF",
+      "best": "Debut",
+      "players": [
+        {
+          "id": "cuw-1",
+          "name": "Leandro Bacuna",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cuw-2",
+          "name": "Juninho Bacuna",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cuw-3",
+          "name": "Tahith Chong",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "NED": {
+      "name": "Netherlands",
+      "iso": "nl",
+      "group": "F",
+      "rank": 7,
+      "conf": "UEFA",
+      "best": "Runner-up (1974,1978,2010)",
+      "players": [
+        {
+          "id": "ned-1",
+          "name": "Virgil van Dijk",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-2",
+          "name": "Cody Gakpo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ned-3",
+          "name": "Xavi Simons",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-4",
+          "name": "Frenkie de Jong",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "JPN": {
+      "name": "Japan",
+      "iso": "jp",
+      "group": "F",
+      "rank": 18,
+      "conf": "AFC",
+      "best": "Round of 16 (2002,2010,2018,2022)",
+      "players": [
+        {
+          "id": "jpn-1",
+          "name": "Kaoru Mitoma",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jpn-2",
+          "name": "Takefusa Kubo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jpn-3",
+          "name": "Wataru Endo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jpn-4",
+          "name": "Daizen Maeda",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "SWE": {
+      "name": "Sweden",
+      "iso": "se",
+      "group": "F",
+      "rank": 25,
+      "conf": "UEFA",
+      "best": "Runner-up (1958)",
+      "players": [
+        {
+          "id": "swe-1",
+          "name": "Alexander Isak",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "swe-2",
+          "name": "Viktor Gyökeres",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "swe-3",
+          "name": "Anthony Elanga",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "swe-4",
+          "name": "Lucas Bergvall",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "iso": "tn",
+      "group": "F",
+      "rank": 41,
+      "conf": "CAF",
+      "best": "Group stage",
+      "players": [
+        {
+          "id": "tun-1",
+          "name": "Youssef Msakni",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-2",
+          "name": "Aïssa Laïdouni",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-3",
+          "name": "Montassar Talbi",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "BEL": {
+      "name": "Belgium",
+      "iso": "be",
+      "group": "G",
+      "rank": 8,
+      "conf": "UEFA",
+      "best": "Third place (2018)",
+      "players": [
+        {
+          "id": "bel-1",
+          "name": "Kevin De Bruyne",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bel-2",
+          "name": "Jérémy Doku",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-3",
+          "name": "Romelu Lukaku",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-4",
+          "name": "Youri Tielemans",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "EGY": {
+      "name": "Egypt",
+      "iso": "eg",
+      "group": "G",
+      "rank": 35,
+      "conf": "CAF",
+      "best": "Group stage (1934,1990,2018)",
+      "players": [
+        {
+          "id": "egy-1",
+          "name": "Mohamed Salah",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-2",
+          "name": "Omar Marmoush",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-3",
+          "name": "Mohamed Elneny",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "IRN": {
+      "name": "Iran",
+      "iso": "ir",
+      "group": "G",
+      "rank": 21,
+      "conf": "AFC",
+      "best": "Group stage",
+      "players": [
+        {
+          "id": "irn-1",
+          "name": "Mehdi Taremi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irn-2",
+          "name": "Alireza Jahanbakhsh",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-3",
+          "name": "Morteza Pouraliganji",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-4",
+          "name": "Alireza Beiranvand",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "iso": "nz",
+      "group": "G",
+      "rank": 86,
+      "conf": "OFC",
+      "best": "Group stage (1982,2010)",
+      "players": [
+        {
+          "id": "nzl-1",
+          "name": "Chris Wood",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "nzl-2",
+          "name": "Marko Stamenić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "nzl-3",
+          "name": "Liberato Cacace",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "ESP": {
+      "name": "Spain",
+      "iso": "es",
+      "group": "H",
+      "rank": 2,
+      "conf": "UEFA",
+      "best": "Winners (2010)",
+      "players": [
+        {
+          "id": "esp-1",
+          "name": "Lamine Yamal",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "esp-2",
+          "name": "Pedri",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "esp-3",
+          "name": "Gavi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "esp-4",
+          "name": "Nico Williams",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "esp-5",
+          "name": "Rodri",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "iso": "cv",
+      "group": "H",
+      "rank": 70,
+      "conf": "CAF",
+      "best": "Debut",
+      "players": [
+        {
+          "id": "cpv-1",
+          "name": "Ryan Mendes",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-2",
+          "name": "Jamiro Monteiro",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-3",
+          "name": "Bryan Teixeira",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "KSA": {
+      "name": "Saudi Arabia",
+      "iso": "sa",
+      "group": "H",
+      "rank": 56,
+      "conf": "AFC",
+      "best": "Round of 16 (1994)",
+      "players": [
+        {
+          "id": "ksa-1",
+          "name": "Salem Al-Dawsari",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ksa-2",
+          "name": "Firas Al-Buraikan",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ksa-3",
+          "name": "Mohammed Kanno",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "URU": {
+      "name": "Uruguay",
+      "iso": "uy",
+      "group": "H",
+      "rank": 17,
+      "conf": "CONMEBOL",
+      "best": "Winners (1930,1950)",
+      "players": [
+        {
+          "id": "uru-1",
+          "name": "Federico Valverde",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-2",
+          "name": "Darwin Núñez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uru-3",
+          "name": "Ronald Araújo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-4",
+          "name": "Rodrigo Bentancur",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "FRA": {
+      "name": "France",
+      "iso": "fr",
+      "group": "I",
+      "rank": 1,
+      "conf": "UEFA",
+      "best": "Winners (1998,2018)",
+      "players": [
+        {
+          "id": "fra-1",
+          "name": "Kylian Mbappé",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "fra-2",
+          "name": "Aurélien Tchouaméni",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "fra-3",
+          "name": "Ousmane Dembélé",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "fra-4",
+          "name": "Mike Maignan",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "SEN": {
+      "name": "Senegal",
+      "iso": "sn",
+      "group": "I",
+      "rank": 14,
+      "conf": "CAF",
+      "best": "Quarter-finals (2002)",
+      "players": [
+        {
+          "id": "sen-1",
+          "name": "Nicolas Jackson",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-2",
+          "name": "Pape Matar Sarr",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-3",
+          "name": "Kalidou Koulibaly",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-4",
+          "name": "Ismaïla Sarr",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "iso": "iq",
+      "group": "I",
+      "rank": 58,
+      "conf": "AFC",
+      "best": "Group stage (1986)",
+      "players": [
+        {
+          "id": "irq-1",
+          "name": "Aymen Hussein",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irq-2",
+          "name": "Zidane Iqbal",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-3",
+          "name": "Ali Jasim",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "NOR": {
+      "name": "Norway",
+      "iso": "no",
+      "group": "I",
+      "rank": 19,
+      "conf": "UEFA",
+      "best": "Round of 16 (1998)",
+      "players": [
+        {
+          "id": "nor-1",
+          "name": "Erling Haaland",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "nor-2",
+          "name": "Martin Ødegaard",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "nor-3",
+          "name": "Alexander Sørloth",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "ARG": {
+      "name": "Argentina",
+      "iso": "ar",
+      "group": "J",
+      "rank": 3,
+      "conf": "CONMEBOL",
+      "best": "Winners (1978,1986,2022)",
+      "players": [
+        {
+          "id": "arg-1",
+          "name": "Lionel Messi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "arg-2",
+          "name": "Lautaro Martínez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "arg-3",
+          "name": "Julián Álvarez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "arg-4",
+          "name": "Enzo Fernández",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "arg-5",
+          "name": "Emiliano Martínez",
+          "pos": "GK",
+          "number": null
+        }
+      ]
+    },
+    "ALG": {
+      "name": "Algeria",
+      "iso": "dz",
+      "group": "J",
+      "rank": 43,
+      "conf": "CAF",
+      "best": "Round of 16 (2014)",
+      "players": [
+        {
+          "id": "alg-1",
+          "name": "Riyad Mahrez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "alg-2",
+          "name": "Ismaël Bennacer",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-3",
+          "name": "Houssem Aouar",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "AUT": {
+      "name": "Austria",
+      "iso": "at",
+      "group": "J",
+      "rank": 22,
+      "conf": "UEFA",
+      "best": "Third place (1954)",
+      "players": [
+        {
+          "id": "aut-1",
+          "name": "Marcel Sabitzer",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "aut-2",
+          "name": "David Alaba",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "aut-3",
+          "name": "Konrad Laimer",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "aut-4",
+          "name": "Marko Arnautović",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "JOR": {
+      "name": "Jordan",
+      "iso": "jo",
+      "group": "J",
+      "rank": 64,
+      "conf": "AFC",
+      "best": "Debut",
+      "players": [
+        {
+          "id": "jor-1",
+          "name": "Mousa Al-Taamari",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-2",
+          "name": "Yazan Al-Naimat",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-3",
+          "name": "Nizar Al-Rashdan",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "POR": {
+      "name": "Portugal",
+      "iso": "pt",
+      "group": "K",
+      "rank": 5,
+      "conf": "UEFA",
+      "best": "Third place (1966)",
+      "players": [
+        {
+          "id": "por-1",
+          "name": "Cristiano Ronaldo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-2",
+          "name": "Bruno Fernandes",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-3",
+          "name": "Rafael Leão",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-4",
+          "name": "Bernardo Silva",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "COD": {
+      "name": "DR Congo",
+      "iso": "cd",
+      "group": "K",
+      "rank": 57,
+      "conf": "CAF",
+      "best": "Group stage (1974 as Zaire)",
+      "players": [
+        {
+          "id": "cod-1",
+          "name": "Cédric Bakambu",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-2",
+          "name": "Chancel Mbemba",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-3",
+          "name": "Yoane Wissa",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "iso": "uz",
+      "group": "K",
+      "rank": 54,
+      "conf": "AFC",
+      "best": "Debut",
+      "players": [
+        {
+          "id": "uzb-1",
+          "name": "Eldor Shomurodov",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uzb-2",
+          "name": "Abbosbek Fayzullaev",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-3",
+          "name": "Khusniddin Alikulov",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    },
+    "COL": {
+      "name": "Colombia",
+      "iso": "co",
+      "group": "K",
+      "rank": 13,
+      "conf": "CONMEBOL",
+      "best": "Quarter-finals (2014)",
+      "players": [
+        {
+          "id": "col-1",
+          "name": "Luis Díaz",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "col-2",
+          "name": "James Rodríguez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-3",
+          "name": "Jhon Durán",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "col-4",
+          "name": "Richard Ríos",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "ENG": {
+      "name": "England",
+      "iso": "gb-eng",
+      "group": "L",
+      "rank": 4,
+      "conf": "UEFA",
+      "best": "Winners (1966)",
+      "players": [
+        {
+          "id": "eng-1",
+          "name": "Jude Bellingham",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "eng-2",
+          "name": "Harry Kane",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "eng-3",
+          "name": "Bukayo Saka",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "eng-4",
+          "name": "Eberechi Eze",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "eng-5",
+          "name": "Declan Rice",
+          "pos": "MF",
+          "number": null
+        }
+      ]
+    },
+    "CRO": {
+      "name": "Croatia",
+      "iso": "hr",
+      "group": "L",
+      "rank": 11,
+      "conf": "UEFA",
+      "best": "Runner-up (2018)",
+      "players": [
+        {
+          "id": "cro-1",
+          "name": "Luka Modrić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-2",
+          "name": "Joško Gvardiol",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-3",
+          "name": "Mateo Kovačić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-4",
+          "name": "Andrej Kramarić",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cro-5",
+          "name": "Bruno Petković",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "GHA": {
+      "name": "Ghana",
+      "iso": "gh",
+      "group": "L",
+      "rank": 73,
+      "conf": "CAF",
+      "best": "Quarter-finals (2010)",
+      "players": [
+        {
+          "id": "gha-1",
+          "name": "Mohammed Kudus",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-2",
+          "name": "Thomas Partey",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-3",
+          "name": "Iñaki Williams",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-4",
+          "name": "Jordan Ayew",
+          "pos": "FW",
+          "number": null
+        }
+      ]
+    },
+    "PAN": {
+      "name": "Panama",
+      "iso": "pa",
+      "group": "L",
+      "rank": 30,
+      "conf": "CONCACAF",
+      "best": "Group stage (2018)",
+      "players": [
+        {
+          "id": "pan-1",
+          "name": "Adalberto Carrasquilla",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-2",
+          "name": "José Fajardo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "pan-3",
+          "name": "Michael Murillo",
+          "pos": "DF",
+          "number": null
+        }
+      ]
+    }
+  },
+  "stadiums": {
+    "Estadio Azteca": {
+      "common": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "cap": 87523,
+      "role": "Opening match"
+    },
+    "Estadio Akron": {
+      "common": "Estadio Akron",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "cap": 46232,
+      "role": null
+    },
+    "Estadio BBVA": {
+      "common": "Estadio BBVA",
+      "city": "Monterrey",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "cap": 53500,
+      "role": null
+    },
+    "BMO Field": {
+      "common": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "cap": 45736,
+      "role": null
+    },
+    "BC Place": {
+      "common": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "cap": 54500,
+      "role": "Round of 16"
+    },
+    "Mercedes-Benz Stadium": {
+      "common": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 71000,
+      "role": "Semi-final"
+    },
+    "Gillette Stadium": {
+      "common": "Gillette Stadium",
+      "city": "Boston",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 65878,
+      "role": "Quarter-final"
+    },
+    "AT&T Stadium": {
+      "common": "AT&T Stadium",
+      "city": "Dallas",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 80000,
+      "role": "Semi-final"
+    },
+    "NRG Stadium": {
+      "common": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 72220,
+      "role": "Round of 16"
+    },
+    "Arrowhead Stadium": {
+      "common": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 76416,
+      "role": "Quarter-final"
+    },
+    "SoFi Stadium": {
+      "common": "SoFi Stadium",
+      "city": "Los Angeles",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 70240,
+      "role": "Quarter-final"
+    },
+    "Hard Rock Stadium": {
+      "common": "Hard Rock Stadium",
+      "city": "Miami",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 65326,
+      "role": "Third-place play-off"
+    },
+    "MetLife Stadium": {
+      "common": "MetLife Stadium",
+      "city": "New York / New Jersey",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 82500,
+      "role": "FINAL"
+    },
+    "Lincoln Financial Field": {
+      "common": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 69596,
+      "role": "Round of 16"
+    },
+    "Levi's Stadium": {
+      "common": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 68500,
+      "role": null
+    },
+    "Lumen Field": {
+      "common": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "cap": 69000,
+      "role": "Round of 16"
+    }
+  },
+  "matches": {
+    "A1": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "MEX",
+      "away": "RSA",
+      "date": "Jun 11",
+      "dateISO": "2026-06-11",
+      "cet": "21:00",
+      "venue": "Estadio Azteca",
+      "result": null
+    },
+    "A2": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "KOR",
+      "away": "CZE",
+      "date": "Jun 12",
+      "dateISO": "2026-06-12",
+      "cet": "04:00",
+      "venue": "Estadio Akron",
+      "result": null
+    },
+    "B1": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "CAN",
+      "away": "BIH",
+      "date": "Jun 12",
+      "dateISO": "2026-06-12",
+      "cet": "21:00",
+      "venue": "BMO Field",
+      "result": null
+    },
+    "D1": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "USA",
+      "away": "PAR",
+      "date": "Jun 13",
+      "dateISO": "2026-06-13",
+      "cet": "03:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "B2": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "QAT",
+      "away": "SUI",
+      "date": "Jun 13",
+      "dateISO": "2026-06-13",
+      "cet": "21:00",
+      "venue": "Levi's Stadium",
+      "result": null
+    },
+    "C1": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "BRA",
+      "away": "MAR",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "00:00",
+      "venue": "MetLife Stadium",
+      "result": null
+    },
+    "C2": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "HAI",
+      "away": "SCO",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "03:00",
+      "venue": "Gillette Stadium",
+      "result": null
+    },
+    "D2": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "AUS",
+      "away": "TUR",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "06:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "E1": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "GER",
+      "away": "ECU",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "18:00",
+      "venue": "BMO Field",
+      "result": null
+    },
+    "E2": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "CIV",
+      "away": "CUW",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "21:00",
+      "venue": "Arrowhead Stadium",
+      "result": null
+    },
+    "F1": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "NED",
+      "away": "JPN",
+      "date": "Jun 14",
+      "dateISO": "2026-06-14",
+      "cet": "23:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "F2": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "SWE",
+      "away": "TUN",
+      "date": "Jun 15",
+      "dateISO": "2026-06-15",
+      "cet": "02:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "H1": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "ESP",
+      "away": "CPV",
+      "date": "Jun 15",
+      "dateISO": "2026-06-15",
+      "cet": "18:00",
+      "venue": "Mercedes-Benz Stadium",
+      "result": null
+    },
+    "G1": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "BEL",
+      "away": "EGY",
+      "date": "Jun 15",
+      "dateISO": "2026-06-15",
+      "cet": "21:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "H2": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "KSA",
+      "away": "URU",
+      "date": "Jun 16",
+      "dateISO": "2026-06-16",
+      "cet": "00:00",
+      "venue": "Hard Rock Stadium",
+      "result": null
+    },
+    "G2": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "IRN",
+      "away": "NZL",
+      "date": "Jun 16",
+      "dateISO": "2026-06-16",
+      "cet": "02:00",
+      "venue": "Levi's Stadium",
+      "result": null
+    },
+    "I1": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 1,
+      "home": "FRA",
+      "away": "SEN",
+      "date": "Jun 16",
+      "dateISO": "2026-06-16",
+      "cet": "18:00",
+      "venue": "MetLife Stadium",
+      "result": null
+    },
+    "I2": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 1,
+      "home": "IRQ",
+      "away": "NOR",
+      "date": "Jun 16",
+      "dateISO": "2026-06-16",
+      "cet": "21:00",
+      "venue": "Lincoln Financial Field",
+      "result": null
+    },
+    "J1": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 1,
+      "home": "ARG",
+      "away": "ALG",
+      "date": "Jun 17",
+      "dateISO": "2026-06-17",
+      "cet": "00:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "J2": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 1,
+      "home": "AUT",
+      "away": "JOR",
+      "date": "Jun 17",
+      "dateISO": "2026-06-17",
+      "cet": "03:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "K1": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "POR",
+      "away": "COD",
+      "date": "Jun 17",
+      "dateISO": "2026-06-17",
+      "cet": "18:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "K2": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "UZB",
+      "away": "COL",
+      "date": "Jun 17",
+      "dateISO": "2026-06-17",
+      "cet": "21:00",
+      "venue": "Estadio Azteca",
+      "result": null
+    },
+    "L1": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "ENG",
+      "away": "CRO",
+      "date": "Jun 17",
+      "dateISO": "2026-06-17",
+      "cet": "22:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "L2": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "GHA",
+      "away": "PAN",
+      "date": "Jun 18",
+      "dateISO": "2026-06-18",
+      "cet": "01:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "A3": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "MEX",
+      "away": "KOR",
+      "date": "Jun 18",
+      "dateISO": "2026-06-18",
+      "cet": "21:00",
+      "venue": "Estadio Akron",
+      "result": null
+    },
+    "A4": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "CZE",
+      "away": "RSA",
+      "date": "Jun 18",
+      "dateISO": "2026-06-18",
+      "cet": "18:00",
+      "venue": "Mercedes-Benz Stadium",
+      "result": null
+    },
+    "B3": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "SUI",
+      "away": "BIH",
+      "date": "Jun 18",
+      "dateISO": "2026-06-18",
+      "cet": "23:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "B4": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "CAN",
+      "away": "QAT",
+      "date": "Jun 19",
+      "dateISO": "2026-06-19",
+      "cet": "00:00",
+      "venue": "BC Place",
+      "result": null
+    },
+    "C3": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "BRA",
+      "away": "SCO",
+      "date": "Jun 19",
+      "dateISO": "2026-06-19",
+      "cet": "21:00",
+      "venue": "Lincoln Financial Field",
+      "result": null
+    },
+    "C4": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "MAR",
+      "away": "HAI",
+      "date": "Jun 20",
+      "dateISO": "2026-06-20",
+      "cet": "00:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "D3": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "USA",
+      "away": "AUS",
+      "date": "Jun 20",
+      "dateISO": "2026-06-20",
+      "cet": "03:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "D4": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "PAR",
+      "away": "TUR",
+      "date": "Jun 19",
+      "dateISO": "2026-06-19",
+      "cet": "18:00",
+      "venue": "Arrowhead Stadium",
+      "result": null
+    },
+    "E3": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "GER",
+      "away": "CIV",
+      "date": "Jun 20",
+      "dateISO": "2026-06-20",
+      "cet": "18:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "E4": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "ECU",
+      "away": "CUW",
+      "date": "Jun 20",
+      "dateISO": "2026-06-20",
+      "cet": "21:00",
+      "venue": "Arrowhead Stadium",
+      "result": null
+    },
+    "F3": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "NED",
+      "away": "SWE",
+      "date": "Jun 20",
+      "dateISO": "2026-06-20",
+      "cet": "23:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "F4": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "JPN",
+      "away": "TUN",
+      "date": "Jun 21",
+      "dateISO": "2026-06-21",
+      "cet": "02:00",
+      "venue": "Estadio BBVA",
+      "result": null
+    },
+    "H3": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "ESP",
+      "away": "KSA",
+      "date": "Jun 21",
+      "dateISO": "2026-06-21",
+      "cet": "18:00",
+      "venue": "Mercedes-Benz Stadium",
+      "result": null
+    },
+    "H4": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "URU",
+      "away": "CPV",
+      "date": "Jun 21",
+      "dateISO": "2026-06-21",
+      "cet": "21:00",
+      "venue": "Hard Rock Stadium",
+      "result": null
+    },
+    "G3": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "BEL",
+      "away": "IRN",
+      "date": "Jun 21",
+      "dateISO": "2026-06-21",
+      "cet": "23:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "G4": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "EGY",
+      "away": "NZL",
+      "date": "Jun 22",
+      "dateISO": "2026-06-22",
+      "cet": "02:00",
+      "venue": "BC Place",
+      "result": null
+    },
+    "I3": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "FRA",
+      "away": "IRQ",
+      "date": "Jun 22",
+      "dateISO": "2026-06-22",
+      "cet": "18:00",
+      "venue": "MetLife Stadium",
+      "result": null
+    },
+    "I4": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "SEN",
+      "away": "NOR",
+      "date": "Jun 22",
+      "dateISO": "2026-06-22",
+      "cet": "21:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "J3": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "ARG",
+      "away": "AUT",
+      "date": "Jun 22",
+      "dateISO": "2026-06-22",
+      "cet": "23:00",
+      "venue": "Levi's Stadium",
+      "result": null
+    },
+    "J4": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "ALG",
+      "away": "JOR",
+      "date": "Jun 23",
+      "dateISO": "2026-06-23",
+      "cet": "02:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "K3": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "POR",
+      "away": "UZB",
+      "date": "Jun 23",
+      "dateISO": "2026-06-23",
+      "cet": "18:00",
+      "venue": "Arrowhead Stadium",
+      "result": null
+    },
+    "K4": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "COL",
+      "away": "COD",
+      "date": "Jun 23",
+      "dateISO": "2026-06-23",
+      "cet": "21:00",
+      "venue": "Estadio Azteca",
+      "result": null
+    },
+    "L3": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "ENG",
+      "away": "GHA",
+      "date": "Jun 23",
+      "dateISO": "2026-06-23",
+      "cet": "22:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "L4": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "CRO",
+      "away": "PAN",
+      "date": "Jun 24",
+      "dateISO": "2026-06-24",
+      "cet": "01:00",
+      "venue": "BMO Field",
+      "result": null
+    },
+    "A5": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "CZE",
+      "away": "MEX",
+      "date": "Jun 24",
+      "dateISO": "2026-06-24",
+      "cet": "22:00",
+      "venue": "Estadio Azteca",
+      "result": null
+    },
+    "A6": {
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "RSA",
+      "away": "KOR",
+      "date": "Jun 24",
+      "dateISO": "2026-06-24",
+      "cet": "22:00",
+      "venue": "Estadio BBVA",
+      "result": null
+    },
+    "B5": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "SUI",
+      "away": "CAN",
+      "date": "Jun 24",
+      "dateISO": "2026-06-24",
+      "cet": "19:00",
+      "venue": "BC Place",
+      "result": null
+    },
+    "B6": {
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "BIH",
+      "away": "QAT",
+      "date": "Jun 24",
+      "dateISO": "2026-06-24",
+      "cet": "19:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "C5": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "BRA",
+      "away": "HAI",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "00:00",
+      "venue": "Hard Rock Stadium",
+      "result": null
+    },
+    "C6": {
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "SCO",
+      "away": "MAR",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "00:00",
+      "venue": "Lincoln Financial Field",
+      "result": null
+    },
+    "D5": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "USA",
+      "away": "TUR",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "03:00",
+      "venue": "SoFi Stadium",
+      "result": null
+    },
+    "D6": {
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "PAR",
+      "away": "AUS",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "03:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "E5": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "GER",
+      "away": "CUW",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "18:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "E6": {
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "CIV",
+      "away": "ECU",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "18:00",
+      "venue": "BMO Field",
+      "result": null
+    },
+    "F5": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "NED",
+      "away": "TUN",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "21:00",
+      "venue": "NRG Stadium",
+      "result": null
+    },
+    "F6": {
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "JPN",
+      "away": "SWE",
+      "date": "Jun 25",
+      "dateISO": "2026-06-25",
+      "cet": "21:00",
+      "venue": "Estadio BBVA",
+      "result": null
+    },
+    "G5": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "BEL",
+      "away": "NZL",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "19:00",
+      "venue": "Lumen Field",
+      "result": null
+    },
+    "G6": {
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "EGY",
+      "away": "IRN",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "19:00",
+      "venue": "BC Place",
+      "result": null
+    },
+    "H5": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "ESP",
+      "away": "URU",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "22:00",
+      "venue": "Mercedes-Benz Stadium",
+      "result": null
+    },
+    "H6": {
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "CPV",
+      "away": "KSA",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "22:00",
+      "venue": "Hard Rock Stadium",
+      "result": null
+    },
+    "I5": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "FRA",
+      "away": "NOR",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "01:00",
+      "venue": "MetLife Stadium",
+      "result": null
+    },
+    "I6": {
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "SEN",
+      "away": "IRQ",
+      "date": "Jun 26",
+      "dateISO": "2026-06-26",
+      "cet": "01:00",
+      "venue": "Lincoln Financial Field",
+      "result": null
+    },
+    "J5": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "ARG",
+      "away": "JOR",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "00:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "J6": {
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "ALG",
+      "away": "AUT",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "00:00",
+      "venue": "Levi's Stadium",
+      "result": null
+    },
+    "K5": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "POR",
+      "away": "COL",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "03:00",
+      "venue": "Estadio Azteca",
+      "result": null
+    },
+    "K6": {
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "COD",
+      "away": "UZB",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "03:00",
+      "venue": "Arrowhead Stadium",
+      "result": null
+    },
+    "L5": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "ENG",
+      "away": "PAN",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "22:00",
+      "venue": "BMO Field",
+      "result": null
+    },
+    "L6": {
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "GHA",
+      "away": "CRO",
+      "date": "Jun 27",
+      "dateISO": "2026-06-27",
+      "cet": "22:00",
+      "venue": "AT&T Stadium",
+      "result": null
+    },
+    "R32-73": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "2A",
+      "away": "2B",
+      "date": "Jun 28",
+      "dateISO": null,
+      "cet": null,
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": null
+    },
+    "R32-74": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1E",
+      "away": "3ABCDF",
+      "date": "Jun 29",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Gillette Stadium",
+      "city": "Foxborough",
+      "result": null
+    },
+    "R32-75": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1F",
+      "away": "2C",
+      "date": "Jun 29",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "result": null
+    },
+    "R32-76": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1C",
+      "away": "2F",
+      "date": "Jun 29",
+      "dateISO": null,
+      "cet": null,
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": null
+    },
+    "R32-77": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1I",
+      "away": "3CDFGH",
+      "date": "Jun 30",
+      "dateISO": null,
+      "cet": null,
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": null
+    },
+    "R32-78": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "2E",
+      "away": "2I",
+      "date": "Jun 30",
+      "dateISO": null,
+      "cet": null,
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": null
+    },
+    "R32-79": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1A",
+      "away": "3CEFHI",
+      "date": "Jun 30",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "result": null
+    },
+    "R32-80": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1L",
+      "away": "3EHIJK",
+      "date": "Jul 1",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": null
+    },
+    "R32-81": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1D",
+      "away": "3BEFIJ",
+      "date": "Jul 1",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": null
+    },
+    "R32-82": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1G",
+      "away": "3AEHIJ",
+      "date": "Jul 1",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": null
+    },
+    "R32-83": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "2K",
+      "away": "2L",
+      "date": "Jul 2",
+      "dateISO": null,
+      "cet": null,
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": null
+    },
+    "R32-84": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1H",
+      "away": "2J",
+      "date": "Jul 2",
+      "dateISO": null,
+      "cet": null,
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": null
+    },
+    "R32-85": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1B",
+      "away": "3EFGIJ",
+      "date": "Jul 2",
+      "dateISO": null,
+      "cet": null,
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": null
+    },
+    "R32-86": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "2D",
+      "away": "2G",
+      "date": "Jul 3",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "result": null
+    },
+    "R32-87": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1K",
+      "away": "2H",
+      "date": "Jul 3",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": null
+    },
+    "R32-88": {
+      "stage": "R32",
+      "group": null,
+      "matchday": null,
+      "home": "1J",
+      "away": "3BCDKL",
+      "date": "Jul 3",
+      "dateISO": null,
+      "cet": null,
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": null
+    },
+    "R16-89": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W74",
+      "away": "W77",
+      "date": "Jul 4",
+      "dateISO": null,
+      "cet": null,
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": null
+    },
+    "R16-90": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W73",
+      "away": "W75",
+      "date": "Jul 4",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": null
+    },
+    "R16-91": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W76",
+      "away": "W78",
+      "date": "Jul 5",
+      "dateISO": null,
+      "cet": null,
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": null
+    },
+    "R16-92": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W79",
+      "away": "W80",
+      "date": "Jul 5",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "result": null
+    },
+    "R16-93": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W83",
+      "away": "W84",
+      "date": "Jul 6",
+      "dateISO": null,
+      "cet": null,
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": null
+    },
+    "R16-94": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W81",
+      "away": "W82",
+      "date": "Jul 6",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": null
+    },
+    "R16-95": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W87",
+      "away": "W88",
+      "date": "Jul 7",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": null
+    },
+    "R16-96": {
+      "stage": "R16",
+      "group": null,
+      "matchday": null,
+      "home": "W85",
+      "away": "W86",
+      "date": "Jul 7",
+      "dateISO": null,
+      "cet": null,
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": null
+    },
+    "QF-97": {
+      "stage": "QF",
+      "group": null,
+      "matchday": null,
+      "home": "W89",
+      "away": "W90",
+      "date": "Jul 9",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Gillette Stadium",
+      "city": "Foxborough",
+      "result": null
+    },
+    "QF-98": {
+      "stage": "QF",
+      "group": null,
+      "matchday": null,
+      "home": "W93",
+      "away": "W94",
+      "date": "Jul 10",
+      "dateISO": null,
+      "cet": null,
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": null
+    },
+    "QF-99": {
+      "stage": "QF",
+      "group": null,
+      "matchday": null,
+      "home": "W91",
+      "away": "W92",
+      "date": "Jul 11",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "result": null
+    },
+    "QF-100": {
+      "stage": "QF",
+      "group": null,
+      "matchday": null,
+      "home": "W95",
+      "away": "W96",
+      "date": "Jul 11",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": null
+    },
+    "SF-101": {
+      "stage": "SF",
+      "group": null,
+      "matchday": null,
+      "home": "W97",
+      "away": "W98",
+      "date": "Jul 14",
+      "dateISO": null,
+      "cet": null,
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": null
+    },
+    "SF-102": {
+      "stage": "SF",
+      "group": null,
+      "matchday": null,
+      "home": "W99",
+      "away": "W100",
+      "date": "Jul 15",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": null
+    },
+    "TP-103": {
+      "stage": "TP",
+      "group": null,
+      "matchday": null,
+      "home": "L101",
+      "away": "L102",
+      "date": "Jul 18",
+      "dateISO": null,
+      "cet": null,
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "result": null
+    },
+    "F-104": {
+      "stage": "F",
+      "group": null,
+      "matchday": null,
+      "home": "W101",
+      "away": "W102",
+      "date": "Jul 19",
+      "dateISO": null,
+      "cet": null,
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": null
+    }
+  }
+}
