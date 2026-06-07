@@ -400,7 +400,7 @@ a{color:inherit;text-decoration:none;}
       </div>
     </div>
     <div style="display:flex;align-items:center;gap:10px">
-      <button id="syncBtn" class="sync-btn" onclick="syncResults()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-6.2-8.5"/><polyline points="21 3 21 9 15 9"/></svg>Update results</button>
+      
       <div class="header-pts">
         <span class="label">Correct</span>
         <span class="val" id="hdrPts">0</span>
@@ -423,7 +423,7 @@ a{color:inherit;text-decoration:none;}
 </nav>
 
 <div class="main">
-  <div class="loader-bar warn" id="loaderBar"><span class="loader-label" id="loaderLabel">Loading data…</span><button class="sync-mini" onclick="loadData()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-6.2-8.5"/><polyline points="21 3 21 9 15 9"/></svg>Refresh from JSON</button></div>
+  <div class="loader-bar warn" id="loaderBar"><span class="loader-label" id="loaderLabel">Loading data…</span></div>
 
   <!-- DASHBOARD -->
   <div class="view active" id="view-dashboard">
@@ -481,10 +481,7 @@ a{color:inherit;text-decoration:none;}
     <div class="section-head">
       <div><div class="section-title"><span class="accent"></span>Match Schedule</div><div class="section-sub">All times shown in Central European Time (CET). Tap a match for details and predictions.</div></div>
     </div>
-    <div class="sync-bar">
-      <span id="lastSync" class="sync-label">Not synced yet</span>
-      <button class="sync-mini" onclick="syncResults()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-6.2-8.5"/><polyline points="21 3 21 9 15 9"/></svg>Refresh all results</button>
-    </div>
+    
     <div class="filters" id="schedFilters"></div>
     <div class="md-sub" id="mdSub"></div>
     <div id="schedList"></div>
@@ -567,10 +564,10 @@ function loadState(){
 function saveState(){ try{ localStorage.setItem(STORE_KEY,JSON.stringify(STATE)); }catch(e){} }
 
 // ---------- LOAD DATA JSON ----------
-async function loadData(){
+async function loadData(silent=false){
   const bar=document.getElementById('loaderBar');
   const label=document.getElementById('loaderLabel');
-  bar.className='loader-bar warn'; label.textContent='Loading data…';
+  if(!silent){ bar.className='loader-bar warn'; label.textContent='Loading data…'; }
   try{
     const res=await fetch(DATA_FILE+'?t='+Date.now(),{cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
@@ -585,10 +582,10 @@ async function loadData(){
     label.textContent=`Data loaded · ${played} result${played!==1?'s':''} recorded · updated ${DATA.meta.updated}`;
     renderAll();
   }catch(e){
-    bar.className='loader-bar err';
-    label.innerHTML=`Could not load ${DATA_FILE} — make sure it's in the same folder. <span style="font-weight:400">(${e.message})</span>`;
-    if(!DATA){
-      document.getElementById('view-dashboard').innerHTML=fileHelp();
+    if(!silent){
+      bar.className='loader-bar err';
+      label.innerHTML=`Could not load ${DATA_FILE} — make sure it's in the same folder. <span style="font-weight:400">(${e.message})</span>`;
+      if(!DATA) document.getElementById('view-dashboard').innerHTML=fileHelp();
     }
   }
 }
@@ -613,11 +610,6 @@ function flag(code,size){
   const h=size||18, w=Math.round(h*4/3);
   return `<img class="flagimg" src="https://flagcdn.com/${Math.round(w*2)}x${Math.round(h*2)}/${t.iso}.png" width="${w}" height="${h}" alt="${t.name}" loading="lazy" onerror="this.replaceWith(document.createTextNode('${code}'))">`;
 }
-function groupFlag(code){
-  const t=T(code); if(!t||!t.iso) return '';
-  const h=17, w=Math.round(h*4/3);
-  return `<img class="flagimg" src="https://flagcdn.com/${Math.round(w*2)}x${Math.round(h*2)}/${t.iso}.png" width="${w}" height="${h}" alt="${t.name} flag" loading="lazy" onerror="this.style.display='none'">`;
-}
 function groupColor(g){
   const map={A:'#E4002B',B:'#0066B3',C:'#00A14B',D:'#FF7A00',E:'#7B2FBF',F:'#00B5C9',G:'#FF5CA8',H:'#E0A800',I:'#B30021',J:'#004B86',K:'#00713A',L:'#9333EA'};
   return map[g]||'#5A6573';
@@ -637,10 +629,8 @@ function showView(v){
   document.getElementById('view-'+v).classList.add('active');
   document.querySelector(`.nav-btn[data-view="${v}"]`).classList.add('active');
   window.scrollTo({top:0,behavior:'smooth'});
-  if(v==='groups')renderGroups();
-  if(v==='knockout')renderKnockout();
-  if(v==='predictions')renderPredictions();
-  if(v==='goldenboot')renderGoldenBoot();
+  // Auto-refresh JSON on every tab switch — silent, no visual flicker
+  loadData(true);
 }
 document.getElementById('navInner').addEventListener('click',e=>{
   const btn=e.target.closest('.nav-btn'); if(btn) showView(btn.dataset.view);
@@ -721,7 +711,7 @@ function renderGroups(){
   const grid=document.getElementById('groupsGrid');
   grid.innerHTML=DATA.groupOrder.map(g=>{
     const standings=computeStandings(g), color=groupColor(g);
-    return `<div class="group-card"><div class="group-card-head" style="background:${color}"><h3>Group ${g}</h3><span class="tag">4 teams</span></div><table class="gtable"><thead><tr><th class="team-col">Team</th><th>P</th><th>GD</th><th>Pts</th></tr></thead><tbody>${standings.map((r,i)=>{const t=T(r.code);const pc=i===0?'q1':i===1?'q2':i===2?'q3':'out';return `<tr onclick="openTeam('${r.code}')"><td class="team-col"><div class="gteam"><span class="gpos ${pc}">${i+1}</span>${groupFlag(r.code)}<span class="nm">${t.name}</span></div></td><td>${r.p}</td><td>${r.gd>0?'+':''}${r.gd}</td><td class="gpts">${r.pts}</td></tr>`;}).join('')}</tbody></table></div>`;
+    return `<div class="group-card"><div class="group-card-head" style="background:${color}"><h3>Group ${g}</h3><span class="tag">4 teams</span></div><table class="gtable"><thead><tr><th class="team-col">Team</th><th>P</th><th>GD</th><th>Pts</th></tr></thead><tbody>${standings.map((r,i)=>{const t=T(r.code);const pc=i===0?'q1':i===1?'q2':i===2?'q3':'out';return `<tr onclick="openTeam('${r.code}')"><td class="team-col"><div class="gteam"><span class="gpos ${pc}">${i+1}</span>${flag(r.code,17)}<span class="nm" style="margin-left:7px">${t.name}</span></div></td><td>${r.p}</td><td>${r.gd>0?'+':''}${r.gd}</td><td class="gpts">${r.pts}</td></tr>`;}).join('')}</tbody></table></div>`;
   }).join('');
 }
 
@@ -1165,7 +1155,7 @@ function renderPredictions(){
 // ---------- POINTS ----------
 function updatePoints(){
   const b=computeBreakdown();
-  const hp=document.getElementById('hdrPts'); if(hp)hp.textContent=b.winner;
+  const hp=document.getElementById('hdrPts'); if(hp)hp.textContent=b.exact+'·'+b.winner;
   const d=document.getElementById('dashPts'); if(d)d.textContent=b.winner;
 }
 
