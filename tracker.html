@@ -10,6 +10,7 @@
 </head>
 <style>
 :root{
+  --topbar-h: 60px;
   /* Official WC 2026 inspired bright palette */
   --red:#E4002B; --red-dark:#B30021;
   --green:#00A14B; --green-dark:#00713A;
@@ -75,7 +76,7 @@ a{color:inherit;text-decoration:none;}
 .sync-mini:hover{background:var(--green);color:#fff;}
 
 /* ===== NAV ===== */
-.nav{position:sticky;top:60px;z-index:49;background:var(--paper2);border-bottom:1px solid var(--line);box-shadow:var(--shadow);}
+.nav{position:sticky;top:var(--topbar-h);z-index:49;background:var(--paper2);border-bottom:1px solid var(--line);box-shadow:var(--shadow);}
 .nav-inner{max-width:1100px;margin:0 auto;display:flex;gap:2px;overflow-x:auto;padding:0 10px;scrollbar-width:none;}
 .nav-inner::-webkit-scrollbar{display:none;}
 .nav-btn{padding:13px 15px;font-size:13.5px;font-weight:600;color:var(--txt2);white-space:nowrap;border-bottom:3px solid transparent;display:flex;align-items:center;gap:7px;transition:all 0.16s;}
@@ -107,6 +108,19 @@ a{color:inherit;text-decoration:none;}
 .cd-box{background:rgba(255,255,255,0.1);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.16);border-radius:12px;padding:10px 16px;text-align:center;min-width:64px;}
 .cd-num{font-family:'Archivo Black';font-size:26px;color:var(--gold);line-height:1;}
 .cd-lbl{font-size:10px;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:1px;margin-top:4px;}
+.results-ticker{display:flex;align-items:stretch;background:var(--ink);color:#fff;border-radius:var(--r);overflow:hidden;margin-bottom:20px;box-shadow:var(--shadow);}
+.ticker-label{position:relative;z-index:2;display:flex;align-items:center;gap:7px;flex:0 0 auto;padding:11px 15px;background:var(--red);font-size:10.5px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;white-space:nowrap;}
+.ticker-label::after{content:'';width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 0 4px rgba(255,255,255,0.18);}
+.ticker-window{min-width:0;overflow:hidden;display:flex;align-items:center;flex:1;}
+.ticker-track{display:flex;align-items:center;width:max-content;will-change:transform;}
+.ticker-track.moving{animation:ticker-scroll var(--ticker-duration,30s) linear infinite;}
+.results-ticker:hover .ticker-track.moving{animation-play-state:paused;}
+.ticker-item{display:flex;align-items:center;gap:8px;padding:10px 18px;border-right:1px solid rgba(255,255,255,0.14);font-size:12.5px;font-weight:600;white-space:nowrap;cursor:pointer;}
+.ticker-item:hover{background:rgba(255,255,255,0.1);}
+.ticker-score{font-family:'Archivo Black';font-size:15px;color:var(--gold);}
+.ticker-meta{font-size:10px;color:rgba(255,255,255,0.55);font-weight:500;}
+.ticker-empty{padding:10px 16px;font-size:12px;color:rgba(255,255,255,0.65);}
+@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* ===== STAT CARDS ===== */
 .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px;}
@@ -312,23 +326,135 @@ a{color:inherit;text-decoration:none;}
 .empty p{font-size:14px;}
 
 /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE — TABLET 860px ===== */
 @media(max-width:860px){
   .groups-grid{grid-template-columns:1fr 1fr;}
   .stat-row{grid-template-columns:1fr 1fr;}
+  .hero{padding:22px 18px;}
   .hero h2{max-width:100%;font-size:24px;}
   .bracket-list{grid-template-columns:1fr;}
+  .modal{max-width:96vw;}
 }
-@media(max-width:560px){
-  .groups-grid{grid-template-columns:1fr;}
-  .teams-grid,.stadiums-grid,.players-grid{grid-template-columns:1fr;}
-  .grid-2{grid-template-columns:1fr;}
-  .section-title{font-size:21px;}
+
+/* ===== RESPONSIVE — MOBILE 540px ===== */
+@media(max-width:540px){
+  /* ----- Topbar ----- */
+  .topbar-inner{padding:8px 12px;gap:8px;}
+  .brand-mark{width:34px;height:34px;font-size:17px;}
+  .brand-txt h1{font-size:14px;}
   .brand-txt p{display:none;}
-  .sync-btn{padding:8px;}
-  .sync-btn span,.sync-btn{font-size:0;}
-  .sync-btn svg{width:17px;height:17px;}
+  .header-pts{padding:5px 10px;}
+  .header-pts .val{font-size:15px;}
+  .header-pts .label{display:none;}
+
+  /* ----- Nav: horizontal scroll, compact ----- */
+  :root{--topbar-h:52px;}
+  .nav{top:var(--topbar-h);}
+  /* 2-row grid: 4 tabs per row, all visible without scroll */
+  .nav-inner{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    padding:0;
+    gap:0;
+    overflow-x:visible;
+  }
+  .nav-btn{
+    padding:8px 4px 7px;
+    font-size:10px;
+    gap:3px;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    white-space:nowrap;
+    border-bottom:none;
+    border-top:3px solid transparent;
+    text-align:center;
+  }
+  .nav-btn.active{border-top-color:var(--red);border-bottom-color:transparent;}
+  .nav-btn svg{width:18px;height:18px;}
+
+  /* ----- Main content ----- */
+  .main{padding:14px 10px;padding-bottom:20px;}
+
+  /* ----- Hero (dashboard) ----- */
+  .hero{padding:18px 14px;border-radius:14px;}
+  .hero h2{font-size:20px;}
+  .hero .tagline{font-size:12px;}
+
+  /* ----- Stats row ----- */
+  .stat-row{grid-template-columns:1fr 1fr;gap:8px;}
+  .stat-num{font-size:26px;}
+
+  /* ----- Groups ----- */
+  .groups-grid{grid-template-columns:1fr;}
+  .section-title{font-size:20px;}
+
+  /* ----- Schedule / matches ----- */
+  .match{padding:10px 12px;}
+  .match-top{margin-bottom:6px;}
+  .match-meta{font-size:10px;gap:5px;}
+  .match-cet{font-size:10px;}
+  .match-teams{gap:6px;}
+  .nm{font-size:13px;}
+  .match-score{font-size:18px;min-width:46px;}
+
+  /* ----- Filters ----- */
+  .filters{gap:5px;}
+  .fbtn{padding:6px 10px;font-size:11.5px;}
+  .md-sub{gap:5px;}
+  .md-btn{padding:5px 10px;font-size:11px;}
+
+  /* ----- Teams / Stadiums ----- */
+  .teams-grid,.stadiums-grid{grid-template-columns:1fr;}
+  .players-grid{grid-template-columns:1fr;}
+  .grid-2{grid-template-columns:1fr;}
+
+  /* ----- Modal: full-width, taller overlay padding ----- */
+  .overlay{padding:12px 6px;align-items:flex-end;}
+  .modal{
+    max-width:100%;
+    width:100%;
+    border-radius:20px 20px 0 0;
+    max-height:92vh;
+    overflow-y:auto;
+  }
+  .modal-head{padding:16px 16px;}
   .modal-vs{gap:6px;}
-  .mvs-team .flag{font-size:32px;}
+  .mvs-team .flag{font-size:30px;}
+  .mvs-team .nm{font-size:13px;}
+  .mvs-mid{font-size:14px;}
+  .modal-body{padding:14px 14px;}
+  .modal-section{margin-bottom:14px;}
+
+  /* ----- Prediction inputs ----- */
+  .pred-row{padding:10px 10px;gap:8px;}
+  .score-in{width:50px;height:48px;font-size:22px;}
+  .pred-dash{font-size:18px;}
+  .pred-side .nm{font-size:11px;}
+  .score-readonly{font-size:22px;}
+
+  /* ----- Points banner (My Predictions) ----- */
+  .pts-banner{grid-template-columns:repeat(3,1fr);gap:8px;}
+  .ptsb-num{font-size:22px;}
+  .ptsb-lbl{font-size:10px;}
+  .ptsb-sub{font-size:9px;}
+
+  /* ----- Golden Boot ----- */
+  .gb-rank{font-size:16px;width:26px;}
+  .gb-name{font-size:13px;}
+  .gb-goals .num{font-size:20px;}
+
+  /* ----- Knockout ----- */
+  .ko-round-pill{padding:7px 10px;font-size:11px;}
+  .ko-info{font-size:12px;}
+  .ko-slot{font-size:13px;}
+
+  /* ----- Day label ----- */
+  .day-label{font-size:11px;}
+
+  /* ----- Loader bar ----- */
+  .loader-bar{padding:9px 12px;font-size:12px;}
+  .loader-label{font-size:11px;}
 }
 
 /* ===== JSON LOADER ===== */
@@ -388,6 +514,18 @@ a{color:inherit;text-decoration:none;}
 /* number inputs: hide spinners */
 .score-in::-webkit-outer-spin-button,.score-in::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
 .score-in{-moz-appearance:textfield;}
+
+/* ===== PREDICTIONS EXPORT ===== */
+.btn-export-preds{display:flex;align-items:center;gap:7px;padding:9px 16px;background:var(--ink);color:#fff;border-radius:30px;font-size:13px;font-weight:700;transition:all 0.15s;white-space:nowrap;flex-shrink:0;}
+.btn-export-preds:hover{background:var(--txt2);}
+.btn-export-preds svg{width:15px;height:15px;}
+.pred-sync-tip{display:flex;align-items:center;gap:9px;padding:10px 14px;background:#E8F2FB;border:1px solid var(--blue);border-radius:var(--r);margin-bottom:14px;font-size:13px;color:var(--ink);line-height:1.5;}
+.pred-sync-tip svg{flex-shrink:0;color:var(--blue);}
+.pred-sync-tip button{margin-left:auto;font-size:16px;color:var(--txt3);flex-shrink:0;padding:0 4px;}
+@media(max-width:540px){
+  .btn-export-preds{padding:8px 12px;font-size:12px;}
+  .pred-sync-tip{font-size:12px;}
+}
 </style>
 <body>
 <div class="topbar">
@@ -434,6 +572,10 @@ a{color:inherit;text-decoration:none;}
         <p class="tagline">48 teams · 104 matches · 16 stadiums · 3 host nations</p>
         <div class="countdown" id="countdown"></div>
       </div>
+    </div>
+    <div class="results-ticker" aria-label="Results from the last 24 hours">
+      <div class="ticker-label">Last 24 hours</div>
+      <div class="ticker-window"><div class="ticker-track" id="resultsTicker"></div></div>
     </div>
     <div class="stat-row">
       <div class="stat-card c-red"><div class="stat-num" style="color:var(--red)">48</div><div class="stat-lbl">Teams</div></div>
@@ -531,7 +673,13 @@ a{color:inherit;text-decoration:none;}
   <!-- PREDICTIONS -->
   <div class="view" id="view-predictions">
     <div class="section-head">
-      <div><div class="section-title"><span class="accent"></span>My Predictions</div><div class="section-sub">+3 points for an exact score · +1 point for the correct outcome · add the AI's call as a note per match</div></div>
+      <div><div class="section-title"><span class="accent"></span>My Predictions</div><div class="section-sub">Exact score · correct winner/draw · AI notes per match</div></div>
+      <button class="btn-export-preds" onclick="exportPredictions()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Export predictions</button>
+    </div>
+    <div class="pred-sync-tip" id="predSyncTip" style="display:none">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+      <span>Upload <strong>wc2026-predictions.json</strong> to GitHub to sync predictions across devices.</span>
+      <button onclick="document.getElementById('predSyncTip').style.display='none'">×</button>
     </div>
     <div id="predList"></div>
   </div>
@@ -577,6 +725,16 @@ async function loadData(silent=false){
       const pr=await fetch('wc2026-prompts.json?t='+Date.now(),{cache:'no-store'});
       if(pr.ok) PROMPTS=await pr.json();
     }catch(pe){ PROMPTS=null; }
+    // load saved predictions from file (overrides localStorage if exists)
+    try{
+      const pf=await fetch('wc2026-predictions.json?t='+Date.now(),{cache:'no-store'});
+      if(pf.ok){
+        const saved=await pf.json();
+        if(saved.predictions) STATE.predictions=Object.assign({},saved.predictions);
+        if(saved.aiNotes) STATE.aiNotes=Object.assign({},saved.aiNotes);
+        saveState(); // sync to localStorage too
+      }
+    }catch(pe){ /* no predictions file yet — use localStorage */ }
     bar.className='loader-bar ok';
     const played=Object.values(DATA.matches).filter(m=>m.result).length;
     label.textContent=`Data loaded · ${played} result${played!==1?'s':''} recorded · updated ${DATA.meta.updated}`;
@@ -620,8 +778,6 @@ function toast(msg){
   t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2200);
 }
 
-const FAVS=[{code:'ESP',pct:16},{code:'FRA',pct:15},{code:'ENG',pct:11},{code:'ARG',pct:10},{code:'BRA',pct:9},{code:'POR',pct:7},{code:'GER',pct:6},{code:'NED',pct:5}];
-
 // ---------- NAV ----------
 function showView(v){
   document.querySelectorAll('.view').forEach(el=>el.classList.remove('active'));
@@ -663,11 +819,15 @@ function renderCountdown(){
 // ---------- DASHBOARD ----------
 function renderDashboard(){
   renderCountdown();
+  renderResultsTicker();
   const fav=document.getElementById('favList');
-  fav.innerHTML=`<div style="font-size:10px;color:var(--txt3);margin-bottom:8px;display:flex;justify-content:space-between"><span>Prediction market probability</span><span>Kalshi · Polymarket · Jun 2026</span></div>`+FAVS.map(f=>{
-    const t=T(f.code); const barW=Math.round(f.pct*4.5);
-    return `<div style="display:flex;align-items:center;gap:11px;padding:8px 0;border-bottom:1px solid var(--paper3)">${flag(f.code,20)}<span style="flex:1;font-weight:600;font-size:13px;margin-left:4px">${t.name}</span><div style="flex:1.6;height:7px;background:var(--paper3);border-radius:4px;overflow:hidden"><div style="height:100%;width:${barW}%;background:linear-gradient(90deg,var(--gold-dark),var(--gold));border-radius:4px"></div></div><span style="font-family:'Archivo Black';font-size:13px;color:var(--gold-dark);min-width:32px;text-align:right">${f.pct}%</span></div>`;
-  }).join('');
+  const favourites=Array.isArray(DATA.titleFavorites)
+    ? DATA.titleFavorites.filter(f=>T(f.code)&&Number.isFinite(Number(f.percentage))).slice(0,8)
+    : [];
+  fav.innerHTML=`<div style="font-size:10px;color:var(--txt3);margin-bottom:8px"><span>Prediction market probability</span></div>`+(favourites.length?favourites.map(f=>{
+    const t=T(f.code), percentage=Math.max(0,Math.min(100,Number(f.percentage))), barW=Math.min(100,percentage*4.5);
+    return `<div style="display:flex;align-items:center;gap:11px;padding:8px 0;border-bottom:1px solid var(--paper3)">${flag(f.code,20)}<span style="flex:1;font-weight:600;font-size:13px;margin-left:4px">${t.name}</span><div style="flex:1.6;height:7px;background:var(--paper3);border-radius:4px;overflow:hidden"><div style="height:100%;width:${barW}%;background:linear-gradient(90deg,var(--gold-dark),var(--gold));border-radius:4px"></div></div><span style="font-family:'Archivo Black';font-size:13px;color:var(--gold-dark);min-width:32px;text-align:right">${percentage}%</span></div>`;
+  }).join(''):'<div style="font-size:12px;color:var(--txt3);padding:8px 0">No title favourites configured in JSON.</div>');
 
   const next=Object.entries(DATA.matches).filter(([id,m])=>m.stage==='group'&&!m.result).slice(0,5);
   document.getElementById('nextList').innerHTML=next.map(([id,m])=>{
@@ -675,6 +835,46 @@ function renderDashboard(){
     return `<div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--paper3);cursor:pointer" onclick="openMatch('${id}')"><span class="gbadge" style="background:${groupColor(m.group)}">GR ${m.group}</span><span style="flex:1;font-size:13px;font-weight:600">${flag(m.home,15)} ${h.name} <span style="color:var(--txt3);font-weight:400">v</span> ${a.name} ${flag(m.away,15)}</span><span style="font-size:11px;color:var(--txt3);white-space:nowrap">${m.date} · ${m.cet}</span></div>`;
   }).join('');
   updatePoints();
+}
+
+function matchFinishedAt(m){
+  if(m.result&&m.result.completedAt){
+    const completed=new Date(m.result.completedAt);
+    if(!Number.isNaN(completed.getTime())) return completed;
+  }
+  if(!m.dateISO||!m.cet) return null;
+  const kickoff=new Date(`${m.dateISO}T${m.cet}:00+02:00`);
+  if(Number.isNaN(kickoff.getTime())) return null;
+  return new Date(kickoff.getTime()+2*60*60*1000);
+}
+
+function renderResultsTicker(){
+  const track=document.getElementById('resultsTicker'); if(!track||!DATA)return;
+  const now=Date.now(), cutoff=now-24*60*60*1000;
+  const recent=Object.entries(DATA.matches).filter(([id,m])=>{
+    if(!m.result)return false;
+    const finished=matchFinishedAt(m);
+    return finished&&finished.getTime()>=cutoff&&finished.getTime()<=now;
+  }).sort((a,b)=>matchFinishedAt(b[1])-matchFinishedAt(a[1]));
+
+  if(!recent.length){
+    track.className='ticker-track';
+    track.innerHTML='<div class="ticker-empty">No completed matches in the last 24 hours.</div>';
+    return;
+  }
+
+  const items=recent.map(([id,m])=>{
+    const hc=DATA.teams[m.home]?m.home:resolveKoTeam(m.home);
+    const ac=DATA.teams[m.away]?m.away:resolveKoTeam(m.away);
+    const hName=hc?T(hc).name:slotLabel(m.home);
+    const aName=ac?T(ac).name:slotLabel(m.away);
+    const r=m.result;
+    return `<div class="ticker-item" onclick="openMatch('${id}')">${hc?flag(hc,15):''}<span>${hName}</span><span class="ticker-score">${r.home}–${r.away}</span><span>${aName}</span>${ac?flag(ac,15):''}<span class="ticker-meta">${m.date}</span></div>`;
+  }).join('');
+
+  track.style.setProperty('--ticker-duration',Math.max(18,recent.length*7)+'s');
+  track.className='ticker-track moving';
+  track.innerHTML=items+items+items+items;
 }
 
 // ---------- STANDINGS ----------
@@ -899,6 +1099,8 @@ function saveMatch(id){
   const noteEl=document.getElementById('aiNoteInput');
   if(noteEl){ if(!STATE.aiNotes)STATE.aiNotes={}; const v=noteEl.value.trim(); if(v)STATE.aiNotes[id]=v; else delete STATE.aiNotes[id]; }
   saveState(); updatePoints(); toast('Prediction saved'); closeModal();
+  // Show sync tip in predictions tab
+  const tip=document.getElementById('predSyncTip'); if(tip)tip.style.display='flex';
   const active=document.querySelector('.nav-btn.active').dataset.view;
   refreshActive(active);
 }
@@ -1160,6 +1362,18 @@ function updatePoints(){
 }
 
 
+// ---------- EXPORT / IMPORT PREDICTIONS ----------
+function exportPredictions(){
+  if(!Object.keys(STATE.predictions).length){ toast('No predictions to export'); return; }
+  const out={ _note:'WC2026 predictions — upload to GitHub alongside tracker.html', exported:new Date().toISOString().slice(0,16).replace('T',' '), predictions:STATE.predictions, aiNotes:STATE.aiNotes||{} };
+  const blob=new Blob([JSON.stringify(out,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='wc2026-predictions.json';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  toast('Downloaded — upload to GitHub to sync on all devices');
+}
+
 // ---------- REFRESH ACTIVE ----------
 function refreshActive(active){
   if(active==='schedule')renderSchedule();
@@ -1183,6 +1397,7 @@ loadState();
 document.getElementById('teamSearch').addEventListener('input',e=>renderTeams(e.target.value));
 renderCountdown();
 setInterval(renderCountdown,60000);
+setInterval(renderResultsTicker,60000);
 loadData();
 
 </script>
