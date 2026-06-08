@@ -951,9 +951,22 @@ function renderSchedule(){
   const list=document.getElementById('schedList');
   const filtered=Object.entries(DATA.matches).filter(([id,m])=>matchPasses(id,m));
   if(!filtered.length){ list.innerHTML='<div class="empty"><p>No matches match this filter.</p></div>'; return; }
-  const byDate={};
-  filtered.forEach(([id,m])=>{ (byDate[m.date]=byDate[m.date]||[]).push([id,m]); });
-  list.innerHTML=Object.entries(byDate).map(([date,arr])=>`<div class="day-group"><div class="day-label">${date} · Round ${arr[0][1].matchday}</div>${arr.map(([id,m])=>matchRow(id,m)).join('')}</div>`).join('');
+  // Sort by dateISO + cet so order is always chronological
+  filtered.sort((a,b)=>{
+    const da=a[1].dateISO+a[1].cet, db=b[1].dateISO+b[1].cet;
+    return da<db?-1:da>db?1:0;
+  });
+  // Group by date + matchday so Jun 18 MD1 and Jun 18 MD2 are separate sections
+  const byGroup={};
+  filtered.forEach(([id,m])=>{
+    const key=m.date+'__'+m.matchday;
+    (byGroup[key]=byGroup[key]||[]).push([id,m]);
+  });
+  list.innerHTML=Object.entries(byGroup).map(([key,arr])=>{
+    const [date,md]=key.split('__');
+    const label=md&&md!=='null'?`${date} · Round ${md}`:date;
+    return `<div class="day-group"><div class="day-label">${label}</div>${arr.map(([id,m])=>matchRow(id,m)).join('')}</div>`;
+  }).join('');
 }
 
 function matchRow(id,m){
