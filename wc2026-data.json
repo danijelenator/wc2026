@@ -7,6 +7,40 @@
     "timezone": "CEST (UTC+2)",
     "note": "Edit results only via admin.html. Group standings, Golden Boot and knockout bracket compute automatically."
   },
+  "titleFavorites": [
+    {
+      "code": "ESP",
+      "percentage": 16
+    },
+    {
+      "code": "FRA",
+      "percentage": 15
+    },
+    {
+      "code": "ENG",
+      "percentage": 11
+    },
+    {
+      "code": "ARG",
+      "percentage": 10
+    },
+    {
+      "code": "BRA",
+      "percentage": 9
+    },
+    {
+      "code": "POR",
+      "percentage": 7
+    },
+    {
+      "code": "GER",
+      "percentage": 6
+    },
+    {
+      "code": "NED",
+      "percentage": 5
+    }
+  ],
   "groupOrder": [
     "A",
     "B",
@@ -70,25 +104,151 @@
         },
         {
           "id": "mex-2",
+          "name": "Raúl Rangel",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mex-3",
+          "name": "Carlos Acevedo",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mex-4",
+          "name": "Jesús Gallardo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-5",
+          "name": "César Montes",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-6",
+          "name": "Jorge Sánchez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-7",
+          "name": "Johan Vásquez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-8",
+          "name": "Israel Reyes",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-9",
+          "name": "Mateo Chávez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mex-10",
           "name": "Edson Álvarez",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "mex-3",
-          "name": "Hirving Lozano",
+          "id": "mex-11",
+          "name": "Orbelín Pineda",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-12",
+          "name": "Roberto Alvarado",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-13",
+          "name": "Luis Romo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-14",
+          "name": "Luis Chávez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-15",
+          "name": "Érik Lira",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-16",
+          "name": "Gilberto Mora",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-17",
+          "name": "Brian Gutiérrez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-18",
+          "name": "Obed Vargas",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-19",
+          "name": "Álvaro Fidalgo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mex-20",
+          "name": "Raúl Jiménez",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "mex-4",
+          "id": "mex-21",
+          "name": "Alexis Vega",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-22",
           "name": "Santiago Giménez",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "mex-5",
-          "name": "Raúl Jiménez",
+          "id": "mex-23",
+          "name": "César Huerta",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-24",
+          "name": "Julián Quiñones",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-25",
+          "name": "Guillermo Martínez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mex-26",
+          "name": "Armando González",
           "pos": "FW",
           "number": null
         }
@@ -110,19 +270,151 @@
         },
         {
           "id": "rsa-2",
-          "name": "Percy Tau",
-          "pos": "FW",
+          "name": "Ricardo Goss",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "rsa-3",
-          "name": "Themba Zwane",
-          "pos": "MF",
+          "name": "Sipho Chaine",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "rsa-4",
+          "name": "Aubrey Modiba",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-5",
+          "name": "Khuliso Mudau",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-6",
+          "name": "Nkosinathi Sibisi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-7",
+          "name": "Mbekezeli Mbokazi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-8",
+          "name": "Ime Okon",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-9",
+          "name": "Samukele Kabini",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-10",
+          "name": "Khulumani Ndamane",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-11",
+          "name": "Thabang Matuludi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-12",
+          "name": "Kamogelo Sebelebele",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-13",
+          "name": "Bradley Cross",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-14",
+          "name": "Olwethu Makhanya",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "rsa-15",
+          "name": "Teboho Mokoena",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "rsa-16",
+          "name": "Sphephelo Sithole",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "rsa-17",
+          "name": "Thalente Mbatha",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "rsa-18",
+          "name": "Jayden Adams",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "rsa-19",
+          "name": "Themba Zwane",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-20",
           "name": "Lyle Foster",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-21",
+          "name": "Evidence Makgopa",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-22",
+          "name": "Oswin Appollis",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-23",
+          "name": "Iqraam Rayners",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-24",
+          "name": "Relebohile Mofokeng",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-25",
+          "name": "Thapelo Maseko",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "rsa-26",
+          "name": "Tshepang Moremi",
           "pos": "FW",
           "number": null
         }
@@ -138,25 +430,157 @@
       "players": [
         {
           "id": "kor-1",
-          "name": "Son Heung-min",
-          "pos": "FW",
+          "name": "Kim Seung-gyu",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "kor-2",
-          "name": "Lee Kang-in",
-          "pos": "MF",
+          "name": "Jo Hyeon-woo",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "kor-3",
+          "name": "Song Bum-keun",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "kor-4",
           "name": "Kim Min-jae",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "kor-4",
+          "id": "kor-5",
+          "name": "Kim Moon-hwan",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-6",
+          "name": "Seol Young-woo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-7",
+          "name": "Lee Tae-seok",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-8",
+          "name": "Park Jin-seob",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-9",
+          "name": "Kim Tae-hyeon",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-10",
+          "name": "Lee Han-beom",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-11",
+          "name": "Jens Castrop",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-12",
+          "name": "Lee Ki-hyuk",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-13",
+          "name": "Cho Wi-je",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "kor-14",
+          "name": "Lee Jae-sung",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-15",
           "name": "Hwang Hee-chan",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-16",
+          "name": "Hwang In-beom",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-17",
+          "name": "Lee Kang-in",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-18",
+          "name": "Paik Seung-ho",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-19",
+          "name": "Kim Jin-gyu",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-20",
+          "name": "Lee Dong-gyeong",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-21",
+          "name": "Bae Jun-ho",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-22",
+          "name": "Eom Ji-sung",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-23",
+          "name": "Yang Hyun-jun",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "kor-24",
+          "name": "Son Heung-min",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "kor-25",
+          "name": "Cho Gue-sung",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "kor-26",
+          "name": "Oh Hyeon-gyu",
           "pos": "FW",
           "number": null
         }
@@ -172,25 +596,157 @@
       "players": [
         {
           "id": "cze-1",
-          "name": "Patrik Schick",
-          "pos": "FW",
+          "name": "Matěj Kovář",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "cze-2",
+          "name": "Jindřich Staněk",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cze-3",
+          "name": "Lukáš Horníček",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cze-4",
+          "name": "Vladimír Coufal",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-5",
+          "name": "Tomáš Holeš",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-6",
+          "name": "Ladislav Krejčí",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-7",
+          "name": "David Zima",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-8",
+          "name": "Jaroslav Zelený",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-9",
+          "name": "David Jurásek",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-10",
+          "name": "David Douděra",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-11",
+          "name": "Robin Hranáč",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-12",
+          "name": "Štěpán Chaloupek",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cze-13",
           "name": "Tomáš Souček",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "cze-3",
-          "name": "Tomáš Holeš",
+          "id": "cze-14",
+          "name": "Vladimír Darida",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "cze-4",
+          "id": "cze-15",
+          "name": "Lukáš Provod",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-16",
+          "name": "Michal Sadílek",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-17",
+          "name": "Pavel Šulc",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-18",
+          "name": "Lukáš Červ",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-19",
+          "name": "Hugo Sochůrek",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-20",
+          "name": "Alexandr Sojka",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-21",
+          "name": "Denis Višinský",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cze-22",
+          "name": "Patrik Schick",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cze-23",
           "name": "Adam Hložek",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cze-24",
+          "name": "Jan Kuchta",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cze-25",
+          "name": "Mojmír Chytil",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cze-26",
+          "name": "Tomáš Chorý",
           "pos": "FW",
           "number": null
         }
@@ -206,27 +762,153 @@
       "players": [
         {
           "id": "can-1",
-          "name": "Alphonso Davies",
-          "pos": "DF",
-          "number": null
+          "name": "Dayne St. Clair",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "can-2",
-          "name": "Jonathan David",
-          "pos": "FW",
-          "number": null
+          "name": "Alistair Johnston",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "can-3",
-          "name": "Stephen Eustáquio",
-          "pos": "MF",
-          "number": null
+          "name": "Luc de Fougerolles",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "can-4",
+          "name": "Alfie Jones",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "can-5",
+          "name": "Joel Waterman",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "can-6",
+          "name": "Mathieu Choinière",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "can-7",
+          "name": "Stephen Eustáquio",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "can-8",
+          "name": "Ismaël Koné",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "can-9",
           "name": "Cyle Larin",
           "pos": "FW",
-          "number": null
+          "number": 9
+        },
+        {
+          "id": "can-10",
+          "name": "Jonathan David",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "can-11",
+          "name": "Liam Millar",
+          "pos": "MF",
+          "number": 11
+        },
+        {
+          "id": "can-12",
+          "name": "Tani Oluwaseyi",
+          "pos": "FW",
+          "number": 12
+        },
+        {
+          "id": "can-13",
+          "name": "Derek Cornelius",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "can-14",
+          "name": "Jacob Shaffelburg",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "can-15",
+          "name": "Moïse Bombito",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "can-16",
+          "name": "Maxime Crépeau",
+          "pos": "GK",
+          "number": 16
+        },
+        {
+          "id": "can-17",
+          "name": "Tajon Buchanan",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "can-18",
+          "name": "Owen Goodman",
+          "pos": "GK",
+          "number": 18
+        },
+        {
+          "id": "can-19",
+          "name": "Alphonso Davies",
+          "pos": "DF",
+          "number": 19
+        },
+        {
+          "id": "can-20",
+          "name": "Ali Ahmed",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "can-21",
+          "name": "Jonathan Osorio",
+          "pos": "MF",
+          "number": 21
+        },
+        {
+          "id": "can-22",
+          "name": "Richie Laryea",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "can-23",
+          "name": "Niko Sigur",
+          "pos": "DF",
+          "number": 23
+        },
+        {
+          "id": "can-24",
+          "name": "Promise David",
+          "pos": "FW",
+          "number": 24
+        },
+        {
+          "id": "can-25",
+          "name": "Nathan Saliba",
+          "pos": "MF",
+          "number": 25
         }
       ]
     },
@@ -240,25 +922,157 @@
       "players": [
         {
           "id": "bih-1",
-          "name": "Edin Džeko",
-          "pos": "FW",
+          "name": "Nikola Vasilj",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "bih-2",
-          "name": "Miralem Pjanić",
-          "pos": "MF",
+          "name": "Martin Zlomislić",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "bih-3",
+          "name": "Osman Hadžikić",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "bih-4",
           "name": "Sead Kolašinac",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "bih-4",
+          "id": "bih-5",
+          "name": "Dennis Hadžikadunić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-6",
+          "name": "Amar Dedić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-7",
+          "name": "Nikola Katić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-8",
+          "name": "Tarik Muharemović",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-9",
+          "name": "Nihad Mujakić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-10",
+          "name": "Stjepan Radeljić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-11",
+          "name": "Nidal Čelik",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bih-12",
+          "name": "Amir Hadžiahmetović",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-13",
+          "name": "Benjamin Tahirović",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-14",
+          "name": "Armin Gigović",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-15",
+          "name": "Dženis Burnić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-16",
+          "name": "Ivan Bašić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-17",
+          "name": "Esmir Bajraktarević",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-18",
+          "name": "Amar Memić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-19",
+          "name": "Ivan Šunjić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-20",
+          "name": "Kerim Alajbegović",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-21",
+          "name": "Ermin Mahmić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bih-22",
+          "name": "Edin Džeko",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bih-23",
           "name": "Ermedin Demirović",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bih-24",
+          "name": "Samed Baždar",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bih-25",
+          "name": "Haris Tabaković",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bih-26",
+          "name": "Jovo Lukić",
           "pos": "FW",
           "number": null
         }
@@ -274,27 +1088,159 @@
       "players": [
         {
           "id": "qat-1",
-          "name": "Akram Afif",
-          "pos": "FW",
-          "number": null
+          "name": "Mahmud Abunada",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "qat-2",
-          "name": "Almoez Ali",
-          "pos": "FW",
-          "number": null
+          "name": "Pedro Miguel",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "qat-3",
-          "name": "Hassan Al-Haydos",
-          "pos": "MF",
-          "number": null
+          "name": "Lucas Mendes",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "qat-4",
-          "name": "Saad Al-Sheeb",
+          "name": "Issa Laye",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "qat-5",
+          "name": "Jassem Gaber",
+          "pos": "MF",
+          "number": 5
+        },
+        {
+          "id": "qat-6",
+          "name": "Abdulaziz Hatem",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "qat-7",
+          "name": "Ahmed Alaaeldin",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "qat-8",
+          "name": "Edmilson Junior",
+          "pos": "FW",
+          "number": 8
+        },
+        {
+          "id": "qat-9",
+          "name": "Mohammed Muntari",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "qat-10",
+          "name": "Hassan Al-Haydos",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "qat-11",
+          "name": "Akram Afif",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "qat-12",
+          "name": "Karim Boudiaf",
+          "pos": "MF",
+          "number": 12
+        },
+        {
+          "id": "qat-13",
+          "name": "Ayoub Al-Oui",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "qat-14",
+          "name": "Homam Ahmed",
+          "pos": "DF",
+          "number": 14
+        },
+        {
+          "id": "qat-15",
+          "name": "Yusuf Abdurisag",
+          "pos": "FW",
+          "number": 15
+        },
+        {
+          "id": "qat-16",
+          "name": "Boualem Khoukhi",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "qat-17",
+          "name": "Ahmed Al-Ganehi",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "qat-18",
+          "name": "Sultan Al-Brake",
+          "pos": "DF",
+          "number": 18
+        },
+        {
+          "id": "qat-19",
+          "name": "Almoez Ali",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "qat-20",
+          "name": "Ahmed Fathy",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "qat-21",
+          "name": "Salah Zakaria",
           "pos": "GK",
-          "number": null
+          "number": 21
+        },
+        {
+          "id": "qat-22",
+          "name": "Meshaal Barsham",
+          "pos": "GK",
+          "number": 22
+        },
+        {
+          "id": "qat-23",
+          "name": "Assim Madibo",
+          "pos": "MF",
+          "number": 23
+        },
+        {
+          "id": "qat-24",
+          "name": "Tahsin Jamshid",
+          "pos": "FW",
+          "number": 24
+        },
+        {
+          "id": "qat-25",
+          "name": "Al-Hashmi Al-Hussain",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "qat-26",
+          "name": "Mohamed Al-Mannai",
+          "pos": "MF",
+          "number": 26
         }
       ]
     },
@@ -308,33 +1254,159 @@
       "players": [
         {
           "id": "sui-1",
-          "name": "Granit Xhaka",
-          "pos": "MF",
-          "number": null
+          "name": "Gregor Kobel",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "sui-2",
-          "name": "Manuel Akanji",
+          "name": "Miro Muheim",
           "pos": "DF",
-          "number": null
+          "number": 2
         },
         {
           "id": "sui-3",
-          "name": "Breel Embolo",
-          "pos": "FW",
-          "number": null
+          "name": "Silvan Widmer",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "sui-4",
-          "name": "Dan Ndoye",
-          "pos": "FW",
-          "number": null
+          "name": "Nico Elvedi",
+          "pos": "DF",
+          "number": 4
         },
         {
           "id": "sui-5",
-          "name": "Gregor Kobel",
+          "name": "Manuel Akanji",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "sui-6",
+          "name": "Denis Zakaria",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "sui-7",
+          "name": "Breel Embolo",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "sui-8",
+          "name": "Remo Freuler",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "sui-9",
+          "name": "Johan Manzambi",
+          "pos": "MF",
+          "number": 9
+        },
+        {
+          "id": "sui-10",
+          "name": "Granit Xhaka",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "sui-11",
+          "name": "Dan Ndoye",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "sui-12",
+          "name": "Yvon Mvogo",
           "pos": "GK",
-          "number": null
+          "number": 12
+        },
+        {
+          "id": "sui-13",
+          "name": "Ricardo Rodriguez",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "sui-14",
+          "name": "Ardon Jashari",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "sui-15",
+          "name": "Djibril Sow",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "sui-16",
+          "name": "Christian Fassnacht",
+          "pos": "MF",
+          "number": 16
+        },
+        {
+          "id": "sui-17",
+          "name": "Rubén Vargas",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "sui-18",
+          "name": "Eray Cömert",
+          "pos": "DF",
+          "number": 18
+        },
+        {
+          "id": "sui-19",
+          "name": "Noah Okafor",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "sui-20",
+          "name": "Michel Aebischer",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "sui-21",
+          "name": "Marvin Keller",
+          "pos": "GK",
+          "number": 21
+        },
+        {
+          "id": "sui-22",
+          "name": "Fabian Rieder",
+          "pos": "MF",
+          "number": 22
+        },
+        {
+          "id": "sui-23",
+          "name": "Zeki Amdouni",
+          "pos": "FW",
+          "number": 23
+        },
+        {
+          "id": "sui-24",
+          "name": "Aurèle Amenda",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "sui-25",
+          "name": "Luca Jaquez",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "sui-26",
+          "name": "Cedric Itten",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -348,33 +1420,159 @@
       "players": [
         {
           "id": "bra-1",
-          "name": "Vinícius Júnior",
-          "pos": "FW",
-          "number": null
+          "name": "Alisson",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "bra-2",
-          "name": "Rodrygo",
-          "pos": "FW",
-          "number": null
+          "name": "Wesley",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "bra-3",
-          "name": "Endrick",
-          "pos": "FW",
-          "number": null
+          "name": "Gabriel Magalhães",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "bra-4",
-          "name": "Bruno Guimarães",
-          "pos": "MF",
-          "number": null
+          "name": "Marquinhos",
+          "pos": "DF",
+          "number": 4
         },
         {
           "id": "bra-5",
-          "name": "Alisson",
+          "name": "Casemiro",
+          "pos": "MF",
+          "number": 5
+        },
+        {
+          "id": "bra-6",
+          "name": "Alex Sandro",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "bra-7",
+          "name": "Vinícius Júnior",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "bra-8",
+          "name": "Bruno Guimarães",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "bra-9",
+          "name": "Matheus Cunha",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "bra-10",
+          "name": "Neymar",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "bra-11",
+          "name": "Raphinha",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "bra-12",
+          "name": "Weverton",
           "pos": "GK",
-          "number": null
+          "number": 12
+        },
+        {
+          "id": "bra-13",
+          "name": "Danilo Luiz",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "bra-14",
+          "name": "Bremer",
+          "pos": "DF",
+          "number": 14
+        },
+        {
+          "id": "bra-15",
+          "name": "Léo Pereira",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "bra-16",
+          "name": "Douglas Santos",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "bra-17",
+          "name": "Fabinho",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "bra-18",
+          "name": "Danilo Santos",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "bra-19",
+          "name": "Endrick",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "bra-20",
+          "name": "Lucas Paquetá",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "bra-21",
+          "name": "Luiz Henrique",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "bra-22",
+          "name": "Gabriel Martinelli",
+          "pos": "FW",
+          "number": 22
+        },
+        {
+          "id": "bra-23",
+          "name": "Ederson",
+          "pos": "GK",
+          "number": 23
+        },
+        {
+          "id": "bra-24",
+          "name": "Roger Ibañez",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "bra-25",
+          "name": "Igor Thiago",
+          "pos": "FW",
+          "number": 25
+        },
+        {
+          "id": "bra-26",
+          "name": "Rayan",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -388,32 +1586,158 @@
       "players": [
         {
           "id": "mar-1",
+          "name": "Yassine Bounou",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mar-2",
+          "name": "Munir Mohamedi",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mar-3",
+          "name": "Ahmed Reda Tagnaouti",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "mar-4",
           "name": "Achraf Hakimi",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "mar-2",
-          "name": "Brahim Díaz",
-          "pos": "MF",
+          "id": "mar-5",
+          "name": "Nayef Aguerd",
+          "pos": "DF",
           "number": null
         },
         {
-          "id": "mar-3",
-          "name": "Ayoub El Kaabi",
-          "pos": "FW",
+          "id": "mar-6",
+          "name": "Noussair Mazraoui",
+          "pos": "DF",
           "number": null
         },
         {
-          "id": "mar-4",
+          "id": "mar-7",
+          "name": "Youssef Belammari",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-8",
+          "name": "Anass Salah-Eddine",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-9",
+          "name": "Chadi Riad",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-10",
+          "name": "Issa Diop",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-11",
+          "name": "Zakaria El Ouahdi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-12",
+          "name": "Redouane Halhal",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "mar-13",
           "name": "Sofyan Amrabat",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "mar-5",
+          "id": "mar-14",
+          "name": "Azzedine Ounahi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-15",
           "name": "Bilal El Khannouss",
           "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-16",
+          "name": "Ismael Saibari",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-17",
+          "name": "Neil El Aynaoui",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-18",
+          "name": "Samir El Mourabet",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-19",
+          "name": "Ayyoub Bouaddi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "mar-20",
+          "name": "Ayoub El Kaabi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-21",
+          "name": "Soufiane Rahimi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-22",
+          "name": "Abde Ezzalzouli",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-23",
+          "name": "Brahim Díaz",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-24",
+          "name": "Chemsdine Talbi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-25",
+          "name": "Gessime Yassine",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "mar-26",
+          "name": "Ayoube Amaimouni",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -428,20 +1752,158 @@
       "players": [
         {
           "id": "hai-1",
+          "name": "Johny Placide",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "hai-2",
+          "name": "Alexandre Pierre",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "hai-3",
+          "name": "Josué Duverger",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "hai-4",
+          "name": "Ricardo Adé",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-5",
+          "name": "Carlens Arcus",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-6",
+          "name": "Martin Expérience",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-7",
+          "name": "Jean-Kévin Duverne",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-8",
+          "name": "Duke Lacroix",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-9",
+          "name": "Wilguens Paugain",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-10",
+          "name": "Hannes Delcroix",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-11",
+          "name": "Keeto Thermoncy",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "hai-12",
+          "name": "Leverton Pierre",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-13",
+          "name": "Danley Jean Jacques",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-14",
+          "name": "Carl Sainté",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-15",
+          "name": "Jean-Ricner Bellegarde",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-16",
+          "name": "Woodensky Pierre",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-17",
+          "name": "Dominique Simon",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "hai-18",
           "name": "Duckens Nazon",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "hai-2",
+          "id": "hai-19",
           "name": "Frantzdy Pierrot",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "hai-3",
-          "name": "Carlens Arcus",
-          "pos": "DF",
+          "id": "hai-20",
+          "name": "Derrick Etienne Jr.",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-21",
+          "name": "Louicius Deedson",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-22",
+          "name": "Ruben Providence",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-23",
+          "name": "Josué Casimir",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-24",
+          "name": "Yassin Fortuné",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-25",
+          "name": "Wilson Isidor",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "hai-26",
+          "name": "Lenny Joseph",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -456,25 +1918,157 @@
       "players": [
         {
           "id": "sco-1",
+          "name": "Craig Gordon",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "sco-2",
+          "name": "Angus Gunn",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "sco-3",
+          "name": "Liam Kelly",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "sco-4",
           "name": "Andy Robertson",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "sco-2",
-          "name": "Scott McTominay",
-          "pos": "MF",
+          "id": "sco-5",
+          "name": "Grant Hanley",
+          "pos": "DF",
           "number": null
         },
         {
-          "id": "sco-3",
+          "id": "sco-6",
+          "name": "Kieran Tierney",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-7",
+          "name": "Scott McKenna",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-8",
+          "name": "Jack Hendry",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-9",
+          "name": "Nathan Patterson",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-10",
+          "name": "Anthony Ralston",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-11",
+          "name": "John Souttar",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-12",
+          "name": "Aaron Hickey",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-13",
+          "name": "Dominic Hyam",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sco-14",
           "name": "John McGinn",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "sco-4",
-          "name": "Che Adams",
+          "id": "sco-15",
+          "name": "Scott McTominay",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-16",
+          "name": "Ryan Christie",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-17",
+          "name": "Kenny McLean",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-18",
+          "name": "Lewis Ferguson",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-19",
+          "name": "Ben Gannon-Doak",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-20",
+          "name": "Findlay Curtis",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-21",
+          "name": "Tyler Fletcher",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sco-22",
+          "name": "Lyndon Dykes",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sco-23",
+          "name": "Ché Adams",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sco-24",
+          "name": "Lawrence Shankland",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sco-25",
+          "name": "George Hirst",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sco-26",
+          "name": "Ross Stewart",
           "pos": "FW",
           "number": null
         }
@@ -490,33 +2084,159 @@
       "players": [
         {
           "id": "usa-1",
-          "name": "Christian Pulisic",
-          "pos": "FW",
-          "number": null
+          "name": "Matt Turner",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "usa-2",
-          "name": "Weston McKennie",
-          "pos": "MF",
-          "number": null
+          "name": "Sergiño Dest",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "usa-3",
-          "name": "Tyler Adams",
-          "pos": "MF",
-          "number": null
+          "name": "Chris Richards",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "usa-4",
-          "name": "Gio Reyna",
+          "name": "Tyler Adams",
           "pos": "MF",
-          "number": null
+          "number": 4
         },
         {
           "id": "usa-5",
-          "name": "Matt Turner",
+          "name": "Antonee Robinson",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "usa-6",
+          "name": "Auston Trusty",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "usa-7",
+          "name": "Giovanni Reyna",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "usa-8",
+          "name": "Weston McKennie",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "usa-9",
+          "name": "Ricardo Pepi",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "usa-10",
+          "name": "Christian Pulisic",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "usa-11",
+          "name": "Brenden Aaronson",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "usa-12",
+          "name": "Miles Robinson",
+          "pos": "DF",
+          "number": 12
+        },
+        {
+          "id": "usa-13",
+          "name": "Tim Ream",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "usa-14",
+          "name": "Sebastian Berhalter",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "usa-15",
+          "name": "Cristian Roldan",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "usa-16",
+          "name": "Alex Freeman",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "usa-17",
+          "name": "Malik Tillman",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "usa-18",
+          "name": "Maximilian Arfsten",
+          "pos": "DF",
+          "number": 18
+        },
+        {
+          "id": "usa-19",
+          "name": "Haji Wright",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "usa-20",
+          "name": "Folarin Balogun",
+          "pos": "FW",
+          "number": 20
+        },
+        {
+          "id": "usa-21",
+          "name": "Timothy Weah",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "usa-22",
+          "name": "Mark McKenzie",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "usa-23",
+          "name": "Joe Scally",
+          "pos": "DF",
+          "number": 23
+        },
+        {
+          "id": "usa-24",
+          "name": "Matt Freese",
           "pos": "GK",
-          "number": null
+          "number": 24
+        },
+        {
+          "id": "usa-25",
+          "name": "Chris Brady",
+          "pos": "GK",
+          "number": 25
+        },
+        {
+          "id": "usa-26",
+          "name": "Alejandro Zendejas",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -530,20 +2250,158 @@
       "players": [
         {
           "id": "par-1",
+          "name": "Gatito Fernández",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "par-2",
+          "name": "Orlando Gill",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "par-3",
+          "name": "Gastón Olveira",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "par-4",
+          "name": "Gustavo Gómez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-5",
+          "name": "Júnior Alonso",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-6",
+          "name": "Fabián Balbuena",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-7",
+          "name": "Omar Alderete",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-8",
+          "name": "Juan José Cáceres",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-9",
+          "name": "Gustavo Velázquez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-10",
+          "name": "José Canale",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-11",
+          "name": "Alexandro Maidana",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "par-12",
           "name": "Miguel Almirón",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "par-2",
+          "id": "par-13",
+          "name": "Kaku",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-14",
+          "name": "Andrés Cubas",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-15",
+          "name": "Ramón Sosa",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-16",
+          "name": "Diego Gómez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-17",
+          "name": "Damián Bobadilla",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-18",
+          "name": "Braian Ojeda",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-19",
+          "name": "Matías Galarza",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-20",
+          "name": "Maurício",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "par-21",
           "name": "Antonio Sanabria",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "par-3",
-          "name": "Gustavo Gómez",
-          "pos": "DF",
+          "id": "par-22",
+          "name": "Julio Enciso",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "par-23",
+          "name": "Gabriel Ávalos",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "par-24",
+          "name": "Álex Arce",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "par-25",
+          "name": "Isidro Pitta",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "par-26",
+          "name": "Gustavo Caballero",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -558,27 +2416,159 @@
       "players": [
         {
           "id": "aus-1",
-          "name": "Mat Ryan",
+          "name": "Mathew Ryan",
           "pos": "GK",
-          "number": null
+          "number": 1
         },
         {
           "id": "aus-2",
-          "name": "Jackson Irvine",
-          "pos": "MF",
-          "number": null
+          "name": "Miloš Degenek",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "aus-3",
-          "name": "Mitchell Duke",
-          "pos": "FW",
-          "number": null
+          "name": "Alessandro Circati",
+          "pos": "DF",
+          "number": 3
         },
         {
           "id": "aus-4",
-          "name": "Riley McGree",
+          "name": "Jacob Italiano",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "aus-5",
+          "name": "Jordan Bos",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "aus-6",
+          "name": "Jason Geria",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "aus-7",
+          "name": "Mathew Leckie",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "aus-8",
+          "name": "Connor Metcalfe",
           "pos": "MF",
-          "number": null
+          "number": 8
+        },
+        {
+          "id": "aus-9",
+          "name": "Mohamed Touré",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "aus-10",
+          "name": "Ajdin Hrustic",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "aus-11",
+          "name": "Awer Mabil",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "aus-12",
+          "name": "Paul Izzo",
+          "pos": "GK",
+          "number": 12
+        },
+        {
+          "id": "aus-13",
+          "name": "Aiden O'Neill",
+          "pos": "MF",
+          "number": 13
+        },
+        {
+          "id": "aus-14",
+          "name": "Cammy Devlin",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "aus-15",
+          "name": "Kai Trewin",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "aus-16",
+          "name": "Aziz Behich",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "aus-17",
+          "name": "Nestory Irankunda",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "aus-18",
+          "name": "Patrick Beach",
+          "pos": "GK",
+          "number": 18
+        },
+        {
+          "id": "aus-19",
+          "name": "Harry Souttar",
+          "pos": "DF",
+          "number": 19
+        },
+        {
+          "id": "aus-20",
+          "name": "Cristian Volpato",
+          "pos": "FW",
+          "number": 20
+        },
+        {
+          "id": "aus-21",
+          "name": "Cameron Burgess",
+          "pos": "DF",
+          "number": 21
+        },
+        {
+          "id": "aus-22",
+          "name": "Jackson Irvine",
+          "pos": "MF",
+          "number": 22
+        },
+        {
+          "id": "aus-23",
+          "name": "Nishan Velupillay",
+          "pos": "FW",
+          "number": 23
+        },
+        {
+          "id": "aus-24",
+          "name": "Paul Okon-Engstler",
+          "pos": "MF",
+          "number": 24
+        },
+        {
+          "id": "aus-25",
+          "name": "Lucas Herrington",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "aus-26",
+          "name": "Tete Yengi",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -592,25 +2582,157 @@
       "players": [
         {
           "id": "tur-1",
+          "name": "Uğurcan Çakır",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "tur-2",
+          "name": "Mert Günok",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "tur-3",
+          "name": "Altay Bayındır",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "tur-4",
+          "name": "Merih Demiral",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-5",
+          "name": "Zeki Çelik",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-6",
+          "name": "Çağlar Söyüncü",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-7",
+          "name": "Mert Müldür",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-8",
+          "name": "Ferdi Kadıoğlu",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-9",
+          "name": "Ozan Kabak",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-10",
+          "name": "Abdülkerim Bardakcı",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-11",
+          "name": "Eren Elmalı",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-12",
           "name": "Hakan Çalhanoğlu",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "tur-2",
-          "name": "Arda Güler",
+          "id": "tur-13",
+          "name": "Kaan Ayhan",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "tur-3",
+          "id": "tur-14",
+          "name": "Orkun Kökçü",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-15",
+          "name": "İsmail Yüksek",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-16",
+          "name": "Salih Özcan",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-17",
+          "name": "Atakan Karazor",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tur-18",
+          "name": "Kerem Aktürkoğlu",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-19",
+          "name": "İrfan Can Kahveci",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-20",
+          "name": "Barış Alper Yılmaz",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-21",
+          "name": "Arda Güler",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-22",
           "name": "Kenan Yıldız",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "tur-4",
-          "name": "Kerem Aktürkoğlu",
+          "id": "tur-23",
+          "name": "Yunus Akgün",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-24",
+          "name": "Can Uzun",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tur-25",
+          "name": "Yusuf Akçiçek",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tur-26",
+          "name": "Oğuz Aydın",
           "pos": "FW",
           "number": null
         }
@@ -626,27 +2748,159 @@
       "players": [
         {
           "id": "ger-1",
-          "name": "Jamal Musiala",
-          "pos": "MF",
-          "number": null
+          "name": "Manuel Neuer",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "ger-2",
-          "name": "Florian Wirtz",
-          "pos": "MF",
-          "number": null
+          "name": "Oliver Baumann",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "ger-3",
-          "name": "Kai Havertz",
-          "pos": "FW",
-          "number": null
+          "name": "Alexander Nübel",
+          "pos": "GK",
+          "number": 21
         },
         {
           "id": "ger-4",
+          "name": "Antonio Rüdiger",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "ger-5",
+          "name": "Waldemar Anton",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "ger-6",
+          "name": "Jonathan Tah",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "ger-7",
+          "name": "Nico Schlotterbeck",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "ger-8",
+          "name": "Nathaniel Brown",
+          "pos": "DF",
+          "number": 18
+        },
+        {
+          "id": "ger-9",
+          "name": "David Raum",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "ger-10",
+          "name": "Malick Thiaw",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "ger-11",
+          "name": "Aleksandar Pavlović",
+          "pos": "MF",
+          "number": 5
+        },
+        {
+          "id": "ger-12",
           "name": "Joshua Kimmich",
           "pos": "MF",
-          "number": null
+          "number": 6
+        },
+        {
+          "id": "ger-13",
+          "name": "Leon Goretzka",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "ger-14",
+          "name": "Jamie Leweling",
+          "pos": "MF",
+          "number": 9
+        },
+        {
+          "id": "ger-15",
+          "name": "Jamal Musiala",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "ger-16",
+          "name": "Pascal Groß",
+          "pos": "MF",
+          "number": 13
+        },
+        {
+          "id": "ger-17",
+          "name": "Angelo Stiller",
+          "pos": "MF",
+          "number": 16
+        },
+        {
+          "id": "ger-18",
+          "name": "Florian Wirtz",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "ger-19",
+          "name": "Leroy Sané",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "ger-20",
+          "name": "Nadiem Amiri",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "ger-21",
+          "name": "Felix Nmecha",
+          "pos": "MF",
+          "number": 23
+        },
+        {
+          "id": "ger-22",
+          "name": "Lennart Karl",
+          "pos": "MF",
+          "number": 25
+        },
+        {
+          "id": "ger-23",
+          "name": "Kai Havertz",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "ger-24",
+          "name": "Nick Woltemade",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "ger-25",
+          "name": "Maximilian Beier",
+          "pos": "FW",
+          "number": 14
+        },
+        {
+          "id": "ger-26",
+          "name": "Deniz Undav",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -660,21 +2914,159 @@
       "players": [
         {
           "id": "ecu-1",
-          "name": "Moisés Caicedo",
-          "pos": "MF",
-          "number": null
+          "name": "Hernán Galíndez",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "ecu-2",
-          "name": "Enner Valencia",
-          "pos": "FW",
-          "number": null
+          "name": "Moisés Ramírez",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "ecu-3",
+          "name": "Gonzalo Valle",
+          "pos": "GK",
+          "number": 22
+        },
+        {
+          "id": "ecu-4",
+          "name": "Félix Torres",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "ecu-5",
+          "name": "Piero Hincapié",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "ecu-6",
+          "name": "Joel Ordóñez",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "ecu-7",
+          "name": "Willian Pacho",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "ecu-8",
           "name": "Pervis Estupiñán",
           "pos": "DF",
-          "number": null
+          "number": 7
+        },
+        {
+          "id": "ecu-9",
+          "name": "Ángelo Preciado",
+          "pos": "DF",
+          "number": 17
+        },
+        {
+          "id": "ecu-10",
+          "name": "Jackson Porozo",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "ecu-11",
+          "name": "Jordy Alcívar",
+          "pos": "MF",
+          "number": 5
+        },
+        {
+          "id": "ecu-12",
+          "name": "Denil Castillo",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "ecu-13",
+          "name": "John Yeboah",
+          "pos": "MF",
+          "number": 9
+        },
+        {
+          "id": "ecu-14",
+          "name": "Kendry Páez",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "ecu-15",
+          "name": "Alan Minda",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "ecu-16",
+          "name": "Pedro Vite",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "ecu-17",
+          "name": "Gonzalo Plata",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "ecu-18",
+          "name": "Alan Franco",
+          "pos": "MF",
+          "number": 21
+        },
+        {
+          "id": "ecu-19",
+          "name": "Moisés Caicedo",
+          "pos": "MF",
+          "number": 23
+        },
+        {
+          "id": "ecu-20",
+          "name": "Yaimar Medina",
+          "pos": "MF",
+          "number": 24
+        },
+        {
+          "id": "ecu-21",
+          "name": "Kevin Rodríguez",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "ecu-22",
+          "name": "Enner Valencia",
+          "pos": "FW",
+          "number": 13
+        },
+        {
+          "id": "ecu-23",
+          "name": "Anthony Valencia",
+          "pos": "FW",
+          "number": 16
+        },
+        {
+          "id": "ecu-24",
+          "name": "Jordy Caicedo",
+          "pos": "FW",
+          "number": 18
+        },
+        {
+          "id": "ecu-25",
+          "name": "Nilson Angulo",
+          "pos": "FW",
+          "number": 20
+        },
+        {
+          "id": "ecu-26",
+          "name": "Jeremy Arévalo",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -688,25 +3080,157 @@
       "players": [
         {
           "id": "civ-1",
-          "name": "Sébastien Haller",
-          "pos": "FW",
+          "name": "Yahia Fofana",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "civ-2",
+          "name": "Alban Lafont",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "civ-3",
+          "name": "Mohamed Koné",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "civ-4",
+          "name": "Ghislain Konan",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-5",
+          "name": "Odilon Kossounou",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-6",
+          "name": "Wilfried Singo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-7",
+          "name": "Evan Ndicka",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-8",
+          "name": "Emmanuel Agbadou",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-9",
+          "name": "Guéla Doué",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-10",
+          "name": "Ousmane Diomande",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-11",
+          "name": "Christopher Opéri",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "civ-12",
           "name": "Franck Kessié",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "civ-3",
+          "id": "civ-13",
+          "name": "Jean Michaël Seri",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-14",
+          "name": "Ibrahim Sangaré",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-15",
+          "name": "Seko Fofana",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-16",
+          "name": "Christ Inao Oulaï",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-17",
+          "name": "Parfait Guiagon",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "civ-18",
+          "name": "Nicolas Pépé",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-19",
+          "name": "Oumar Diakité",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-20",
           "name": "Simon Adingra",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "civ-4",
-          "name": "Nicolas Pépé",
+          "id": "civ-21",
+          "name": "Evann Guessand",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-22",
+          "name": "Amad Diallo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-23",
+          "name": "Yan Diomande",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-24",
+          "name": "Bazoumana Touré",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-25",
+          "name": "Elye Wahi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "civ-26",
+          "name": "Ange-Yoan Bonny",
           "pos": "FW",
           "number": null
         }
@@ -722,21 +3246,159 @@
       "players": [
         {
           "id": "cuw-1",
-          "name": "Leandro Bacuna",
-          "pos": "MF",
-          "number": null
+          "name": "Eloy Room",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "cuw-2",
-          "name": "Juninho Bacuna",
-          "pos": "MF",
-          "number": null
+          "name": "Tyrick Bodak",
+          "pos": "GK",
+          "number": 25
         },
         {
           "id": "cuw-3",
+          "name": "Trevor Doornbusch",
+          "pos": "GK",
+          "number": 26
+        },
+        {
+          "id": "cuw-4",
+          "name": "Shurandy Sambo",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "cuw-5",
+          "name": "Juriën Gaari",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "cuw-6",
+          "name": "Roshon van Eijma",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "cuw-7",
+          "name": "Sherel Floranus",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "cuw-8",
+          "name": "Armando Obispo",
+          "pos": "DF",
+          "number": 18
+        },
+        {
+          "id": "cuw-9",
+          "name": "Joshua Brenet",
+          "pos": "DF",
+          "number": 20
+        },
+        {
+          "id": "cuw-10",
+          "name": "Riechedly Bazoer",
+          "pos": "DF",
+          "number": 23
+        },
+        {
+          "id": "cuw-11",
+          "name": "Deveron Fonville",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "cuw-12",
+          "name": "Godfried Roemeratoe",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "cuw-13",
+          "name": "Juninho Bacuna",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "cuw-14",
+          "name": "Livano Comenencia",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "cuw-15",
+          "name": "Leandro Bacuna",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "cuw-16",
+          "name": "Tyrese Noslin",
+          "pos": "MF",
+          "number": 13
+        },
+        {
+          "id": "cuw-17",
+          "name": "Ar'jany Martha",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "cuw-18",
+          "name": "Kevin Felida",
+          "pos": "MF",
+          "number": 22
+        },
+        {
+          "id": "cuw-19",
+          "name": "Jürgen Locadia",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "cuw-20",
+          "name": "Jeremy Antonisse",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "cuw-21",
+          "name": "Sontje Hansen",
+          "pos": "FW",
+          "number": 12
+        },
+        {
+          "id": "cuw-22",
+          "name": "Kenji Gorré",
+          "pos": "FW",
+          "number": 14
+        },
+        {
+          "id": "cuw-23",
+          "name": "Jearl Margaritha",
+          "pos": "FW",
+          "number": 16
+        },
+        {
+          "id": "cuw-24",
+          "name": "Brandley Kuwas",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "cuw-25",
+          "name": "Gervane Kastaneer",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "cuw-26",
           "name": "Tahith Chong",
           "pos": "FW",
-          "number": null
+          "number": 21
         }
       ]
     },
@@ -750,26 +3412,158 @@
       "players": [
         {
           "id": "ned-1",
+          "name": "Bart Verbruggen",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "ned-2",
+          "name": "Mark Flekken",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "ned-3",
+          "name": "Robin Roefs",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "ned-4",
           "name": "Virgil van Dijk",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "ned-2",
+          "id": "ned-5",
+          "name": "Denzel Dumfries",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-6",
+          "name": "Nathan Aké",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-7",
+          "name": "Jurriën Timber",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-8",
+          "name": "Micky van de Ven",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-9",
+          "name": "Mats Wieffer",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-10",
+          "name": "Jan Paul van Hecke",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-11",
+          "name": "Jorrel Hato",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ned-12",
+          "name": "Frenkie de Jong",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-13",
+          "name": "Marten de Roon",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-14",
+          "name": "Tijjani Reijnders",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-15",
+          "name": "Teun Koopmeiners",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-16",
+          "name": "Ryan Gravenberch",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-17",
+          "name": "Justin Kluivert",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-18",
+          "name": "Quinten Timber",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-19",
+          "name": "Guus Til",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ned-20",
+          "name": "Memphis Depay",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ned-21",
+          "name": "Wout Weghorst",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ned-22",
+          "name": "Donyell Malen",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ned-23",
           "name": "Cody Gakpo",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "ned-3",
-          "name": "Xavi Simons",
-          "pos": "MF",
+          "id": "ned-24",
+          "name": "Noa Lang",
+          "pos": "FW",
           "number": null
         },
         {
-          "id": "ned-4",
-          "name": "Frenkie de Jong",
-          "pos": "MF",
+          "id": "ned-25",
+          "name": "Brian Brobbey",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ned-26",
+          "name": "Crysencio Summerville",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -784,27 +3578,159 @@
       "players": [
         {
           "id": "jpn-1",
-          "name": "Kaoru Mitoma",
-          "pos": "FW",
-          "number": null
+          "name": "Zion Suzuki",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "jpn-2",
-          "name": "Takefusa Kubo",
-          "pos": "MF",
-          "number": null
+          "name": "Keisuke Ōsako",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "jpn-3",
-          "name": "Wataru Endo",
-          "pos": "MF",
-          "number": null
+          "name": "Tomoki Hayakawa",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "jpn-4",
+          "name": "Yukinari Sugawara",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "jpn-5",
+          "name": "Shōgo Taniguchi",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "jpn-6",
+          "name": "Kō Itakura",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "jpn-7",
+          "name": "Yūto Nagatomo",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "jpn-8",
+          "name": "Tsuyoshi Watanabe",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "jpn-9",
+          "name": "Ayumu Seko",
+          "pos": "DF",
+          "number": 20
+        },
+        {
+          "id": "jpn-10",
+          "name": "Hiroki Itō",
+          "pos": "DF",
+          "number": 21
+        },
+        {
+          "id": "jpn-11",
+          "name": "Takehiro Tomiyasu",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "jpn-12",
+          "name": "Junnosuke Suzuki",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "jpn-13",
+          "name": "Wataru Endo",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "jpn-14",
+          "name": "Ao Tanaka",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "jpn-15",
+          "name": "Takefusa Kubo",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "jpn-16",
+          "name": "Ritsu Dōan",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "jpn-17",
+          "name": "Keito Nakamura",
+          "pos": "MF",
+          "number": 13
+        },
+        {
+          "id": "jpn-18",
+          "name": "Junya Itō",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "jpn-19",
+          "name": "Daichi Kamada",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "jpn-20",
+          "name": "Kaishū Sano",
+          "pos": "MF",
+          "number": 24
+        },
+        {
+          "id": "jpn-21",
+          "name": "Keisuke Gotō",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "jpn-22",
           "name": "Daizen Maeda",
           "pos": "FW",
-          "number": null
+          "number": 11
+        },
+        {
+          "id": "jpn-23",
+          "name": "Yuito Suzuki",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "jpn-24",
+          "name": "Ayase Ueda",
+          "pos": "FW",
+          "number": 18
+        },
+        {
+          "id": "jpn-25",
+          "name": "Kōki Ogawa",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "jpn-26",
+          "name": "Kento Shiogai",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -818,27 +3744,159 @@
       "players": [
         {
           "id": "swe-1",
-          "name": "Alexander Isak",
-          "pos": "FW",
-          "number": null
+          "name": "Jacob Widell Zetterström",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "swe-2",
-          "name": "Viktor Gyökeres",
-          "pos": "FW",
-          "number": null
+          "name": "Viktor Johansson",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "swe-3",
-          "name": "Anthony Elanga",
-          "pos": "FW",
-          "number": null
+          "name": "Kristoffer Nordfeldt",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "swe-4",
+          "name": "Gustaf Lagerbielke",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "swe-5",
+          "name": "Victor Lindelöf",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "swe-6",
+          "name": "Isak Hien",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "swe-7",
+          "name": "Gabriel Gudmundsson",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "swe-8",
+          "name": "Herman Johansson",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "swe-9",
+          "name": "Daniel Svensson",
+          "pos": "DF",
+          "number": 8
+        },
+        {
+          "id": "swe-10",
+          "name": "Hjalmar Ekdal",
+          "pos": "DF",
+          "number": 14
+        },
+        {
+          "id": "swe-11",
+          "name": "Carl Starfelt",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "swe-12",
+          "name": "Eric Smith",
+          "pos": "DF",
+          "number": 20
+        },
+        {
+          "id": "swe-13",
+          "name": "Elliot Stroud",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "swe-14",
           "name": "Lucas Bergvall",
           "pos": "MF",
-          "number": null
+          "number": 7
+        },
+        {
+          "id": "swe-15",
+          "name": "Jesper Karlström",
+          "pos": "MF",
+          "number": 16
+        },
+        {
+          "id": "swe-16",
+          "name": "Yasin Ayari",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "swe-17",
+          "name": "Mattias Svanberg",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "swe-18",
+          "name": "Besfort Zeneli",
+          "pos": "MF",
+          "number": 22
+        },
+        {
+          "id": "swe-19",
+          "name": "Alexander Isak",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "swe-20",
+          "name": "Benjamin Nygren",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "swe-21",
+          "name": "Anthony Elanga",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "swe-22",
+          "name": "Ken Sema",
+          "pos": "FW",
+          "number": 13
+        },
+        {
+          "id": "swe-23",
+          "name": "Viktor Gyökeres",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "swe-24",
+          "name": "Alexander Bernhardsson",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "swe-25",
+          "name": "Gustaf Nilsson",
+          "pos": "FW",
+          "number": 25
+        },
+        {
+          "id": "swe-26",
+          "name": "Taha Ali",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -852,20 +3910,158 @@
       "players": [
         {
           "id": "tun-1",
-          "name": "Youssef Msakni",
-          "pos": "FW",
+          "name": "Aymen Dahmen",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "tun-2",
-          "name": "Aïssa Laïdouni",
-          "pos": "MF",
+          "name": "Sabri Ben Hessen",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "tun-3",
+          "name": "Mouhib Chamakh",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "tun-4",
           "name": "Montassar Talbi",
           "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-5",
+          "name": "Dylan Bronn",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-6",
+          "name": "Ali Abdi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-7",
+          "name": "Yan Valery",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-8",
+          "name": "Mohamed Amine Ben Hamida",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-9",
+          "name": "Moutaz Neffati",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-10",
+          "name": "Omar Rekik",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-11",
+          "name": "Adem Arous",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-12",
+          "name": "Raed Chikhaoui",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "tun-13",
+          "name": "Ellyes Skhiri",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-14",
+          "name": "Hannibal Mejbri",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-15",
+          "name": "Anis Ben Slimane",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-16",
+          "name": "Mortadha Ben Ouanes",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-17",
+          "name": "Ismaël Gharbi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-18",
+          "name": "Hadj Mahmoud",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-19",
+          "name": "Rani Khedira",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "tun-20",
+          "name": "Elias Achouri",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-21",
+          "name": "Firas Chaouat",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-22",
+          "name": "Hazem Mastouri",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-23",
+          "name": "Elias Saad",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-24",
+          "name": "Sebastian Tounekti",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-25",
+          "name": "Khalil Ayari",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "tun-26",
+          "name": "Rayan Elloumi",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -880,26 +4076,158 @@
       "players": [
         {
           "id": "bel-1",
+          "name": "Thibaut Courtois",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "bel-2",
+          "name": "Senne Lammens",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "bel-3",
+          "name": "Mike Penders",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "bel-4",
+          "name": "Thomas Meunier",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-5",
+          "name": "Timothy Castagne",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-6",
+          "name": "Arthur Theate",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-7",
+          "name": "Zeno Debast",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-8",
+          "name": "Maxim De Cuyper",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-9",
+          "name": "Brandon Mechele",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-10",
+          "name": "Koni De Winter",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-11",
+          "name": "Joaquin Seys",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-12",
+          "name": "Nathan Ngoy",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "bel-13",
+          "name": "Axel Witsel",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bel-14",
           "name": "Kevin De Bruyne",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "bel-2",
-          "name": "Jérémy Doku",
-          "pos": "FW",
+          "id": "bel-15",
+          "name": "Youri Tielemans",
+          "pos": "MF",
           "number": null
         },
         {
-          "id": "bel-3",
+          "id": "bel-16",
+          "name": "Hans Vanaken",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bel-17",
+          "name": "Amadou Onana",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bel-18",
+          "name": "Nicolas Raskin",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "bel-19",
           "name": "Romelu Lukaku",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "bel-4",
-          "name": "Youri Tielemans",
-          "pos": "MF",
+          "id": "bel-20",
+          "name": "Leandro Trossard",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-21",
+          "name": "Jérémy Doku",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-22",
+          "name": "Dodi Lukébakio",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-23",
+          "name": "Charles De Ketelaere",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-24",
+          "name": "Alexis Saelemaekers",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-25",
+          "name": "Diego Moreira",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "bel-26",
+          "name": "Matias Fernandez-Pardo",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -914,20 +4242,158 @@
       "players": [
         {
           "id": "egy-1",
+          "name": "Mohamed El Shenawy",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "egy-2",
+          "name": "Mostafa Shobeir",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "egy-3",
+          "name": "Mohamed Alaa",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "egy-4",
+          "name": "El Mahdy Soliman",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "egy-5",
+          "name": "Hamdy Fathy",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-6",
+          "name": "Ramy Rabia",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-7",
+          "name": "Mohamed Hany",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-8",
+          "name": "Ahmed Fatouh",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-9",
+          "name": "Mohamed Abdelmonem",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-10",
+          "name": "Yasser Ibrahim",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-11",
+          "name": "Hossam Abdelmaguid",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-12",
+          "name": "Karim Hafez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-13",
+          "name": "Tarek Alaa",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "egy-14",
+          "name": "Marwan Attia",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-15",
+          "name": "Emam Ashour",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-16",
+          "name": "Mohanad Lasheen",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-17",
+          "name": "Mahmoud Saber",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-18",
+          "name": "Nabil Emad",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-19",
+          "name": "Mostafa Ziko",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "egy-20",
           "name": "Mohamed Salah",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "egy-2",
+          "id": "egy-21",
+          "name": "Trézéguet",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-22",
+          "name": "Zizo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-23",
           "name": "Omar Marmoush",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "egy-3",
-          "name": "Mohamed Elneny",
-          "pos": "MF",
+          "id": "egy-24",
+          "name": "Ibrahim Adel",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-25",
+          "name": "Haissem Hassan",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "egy-26",
+          "name": "Hamza Abdelkarim",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -942,26 +4408,158 @@
       "players": [
         {
           "id": "irn-1",
-          "name": "Mehdi Taremi",
-          "pos": "FW",
+          "name": "Alireza Beiranvand",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "irn-2",
+          "name": "Payam Niazmand",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "irn-3",
+          "name": "Hossein Hosseini",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "irn-4",
+          "name": "Ehsan Hajsafi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-5",
+          "name": "Milad Mohammadi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-6",
+          "name": "Ramin Rezaeian",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-7",
+          "name": "Hossein Kanaanizadegan",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-8",
+          "name": "Shojae Khalilzadeh",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-9",
+          "name": "Saleh Hardani",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-10",
+          "name": "Ali Nemati",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-11",
+          "name": "Danial Eiri",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irn-12",
           "name": "Alireza Jahanbakhsh",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "irn-3",
-          "name": "Morteza Pouraliganji",
-          "pos": "DF",
+          "id": "irn-13",
+          "name": "Saeid Ezatolahi",
+          "pos": "MF",
           "number": null
         },
         {
-          "id": "irn-4",
-          "name": "Alireza Beiranvand",
-          "pos": "GK",
+          "id": "irn-14",
+          "name": "Saman Ghoddos",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-15",
+          "name": "Mehdi Torabi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-16",
+          "name": "Rouzbeh Cheshmi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-17",
+          "name": "Mohammad Mohebi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-18",
+          "name": "Mehdi Ghayedi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-19",
+          "name": "Mohammad Ghorbani",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-20",
+          "name": "Aria Yousefi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-21",
+          "name": "Amirmohammad Razzaghinia",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irn-22",
+          "name": "Mehdi Taremi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irn-23",
+          "name": "Shahriyar Moghanlou",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irn-24",
+          "name": "Amirhossein Hosseinzadeh",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irn-25",
+          "name": "Ali Alipour",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irn-26",
+          "name": "Dennis Eckert",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -976,21 +4574,159 @@
       "players": [
         {
           "id": "nzl-1",
-          "name": "Chris Wood",
-          "pos": "FW",
-          "number": null
+          "name": "Max Crocombe",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "nzl-2",
-          "name": "Marko Stamenić",
-          "pos": "MF",
-          "number": null
+          "name": "Alex Paulsen",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "nzl-3",
+          "name": "Michael Woud",
+          "pos": "GK",
+          "number": 22
+        },
+        {
+          "id": "nzl-4",
+          "name": "Tim Payne",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "nzl-5",
+          "name": "Francis de Vries",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "nzl-6",
+          "name": "Tyler Bindon",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "nzl-7",
+          "name": "Michael Boxall",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "nzl-8",
           "name": "Liberato Cacace",
           "pos": "DF",
-          "number": null
+          "number": 13
+        },
+        {
+          "id": "nzl-9",
+          "name": "Nando Pijnaker",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "nzl-10",
+          "name": "Finn Surman",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "nzl-11",
+          "name": "Callan Elliot",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "nzl-12",
+          "name": "Tommy Smith",
+          "pos": "DF",
+          "number": 26
+        },
+        {
+          "id": "nzl-13",
+          "name": "Joe Bell",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "nzl-14",
+          "name": "Matthew Garbett",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "nzl-15",
+          "name": "Marko Stamenić",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "nzl-16",
+          "name": "Sarpreet Singh",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "nzl-17",
+          "name": "Elijah Just",
+          "pos": "MF",
+          "number": 11
+        },
+        {
+          "id": "nzl-18",
+          "name": "Alex Rufer",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "nzl-19",
+          "name": "Ben Old",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "nzl-20",
+          "name": "Callum McCowatt",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "nzl-21",
+          "name": "Ryan Thomas",
+          "pos": "MF",
+          "number": 23
+        },
+        {
+          "id": "nzl-22",
+          "name": "Lachlan Bayliss",
+          "pos": "MF",
+          "number": 25
+        },
+        {
+          "id": "nzl-23",
+          "name": "Chris Wood",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "nzl-24",
+          "name": "Kosta Barbarouses",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "nzl-25",
+          "name": "Ben Waine",
+          "pos": "FW",
+          "number": 18
+        },
+        {
+          "id": "nzl-26",
+          "name": "Jesse Randall",
+          "pos": "FW",
+          "number": 21
         }
       ]
     },
@@ -1004,33 +4740,159 @@
       "players": [
         {
           "id": "esp-1",
-          "name": "Lamine Yamal",
-          "pos": "FW",
-          "number": null
+          "name": "David Raya",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "esp-2",
-          "name": "Pedri",
-          "pos": "MF",
-          "number": null
+          "name": "Joan Garcia",
+          "pos": "GK",
+          "number": 13
         },
         {
           "id": "esp-3",
-          "name": "Gavi",
-          "pos": "MF",
-          "number": null
+          "name": "Unai Simón",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "esp-4",
-          "name": "Nico Williams",
-          "pos": "FW",
-          "number": null
+          "name": "Marc Pubill",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "esp-5",
+          "name": "Álex Grimaldo",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "esp-6",
+          "name": "Eric García",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "esp-7",
+          "name": "Marcos Llorente",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "esp-8",
+          "name": "Pedro Porro",
+          "pos": "DF",
+          "number": 12
+        },
+        {
+          "id": "esp-9",
+          "name": "Aymeric Laporte",
+          "pos": "DF",
+          "number": 14
+        },
+        {
+          "id": "esp-10",
+          "name": "Pau Cubarsí",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "esp-11",
+          "name": "Marc Cucurella",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "esp-12",
+          "name": "Mikel Merino",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "esp-13",
+          "name": "Fabián Ruiz",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "esp-14",
+          "name": "Gavi",
+          "pos": "MF",
+          "number": 9
+        },
+        {
+          "id": "esp-15",
+          "name": "Álex Baena",
+          "pos": "MF",
+          "number": 15
+        },
+        {
+          "id": "esp-16",
           "name": "Rodri",
           "pos": "MF",
-          "number": null
+          "number": 16
+        },
+        {
+          "id": "esp-17",
+          "name": "Martín Zubimendi",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "esp-18",
+          "name": "Pedri",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "esp-19",
+          "name": "Ferran Torres",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "esp-20",
+          "name": "Dani Olmo",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "esp-21",
+          "name": "Yéremy Pino",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "esp-22",
+          "name": "Nico Williams",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "esp-23",
+          "name": "Lamine Yamal",
+          "pos": "FW",
+          "number": 19
+        },
+        {
+          "id": "esp-24",
+          "name": "Mikel Oyarzabal",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "esp-25",
+          "name": "Víctor Muñoz",
+          "pos": "FW",
+          "number": 25
+        },
+        {
+          "id": "esp-26",
+          "name": "Borja Iglesias",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -1044,19 +4906,157 @@
       "players": [
         {
           "id": "cpv-1",
-          "name": "Ryan Mendes",
-          "pos": "FW",
+          "name": "Vozinha",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "cpv-2",
+          "name": "Márcio Rosa",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cpv-3",
+          "name": "CJ dos Santos",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cpv-4",
+          "name": "Stopira",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-5",
+          "name": "Roberto Lopes",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-6",
+          "name": "João Paulo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-7",
+          "name": "Diney",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-8",
+          "name": "Logan Costa",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-9",
+          "name": "Steven Moreira",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-10",
+          "name": "Wagner Pina",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-11",
+          "name": "Sidny Lopes Cabral",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-12",
+          "name": "Kelvin Pires",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cpv-13",
           "name": "Jamiro Monteiro",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "cpv-3",
-          "name": "Bryan Teixeira",
+          "id": "cpv-14",
+          "name": "Kevin Pina",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-15",
+          "name": "Deroy Duarte",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-16",
+          "name": "Telmo Arcanjo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-17",
+          "name": "Laros Duarte",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-18",
+          "name": "Yannick Semedo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cpv-19",
+          "name": "Ryan Mendes",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-20",
+          "name": "Garry Rodrigues",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-21",
+          "name": "Willy Semedo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-22",
+          "name": "Jovane Cabral",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-23",
+          "name": "Gilson Benchimol",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-24",
+          "name": "Dailon Livramento",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-25",
+          "name": "Hélio Varela",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cpv-26",
+          "name": "Nuno da Costa",
           "pos": "FW",
           "number": null
         }
@@ -1072,20 +5072,158 @@
       "players": [
         {
           "id": "ksa-1",
-          "name": "Salem Al-Dawsari",
-          "pos": "FW",
+          "name": "Mohammed Al-Owais",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "ksa-2",
+          "name": "Nawaf Al-Aqidi",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "ksa-3",
+          "name": "Ahmed Al-Kassar",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "ksa-4",
+          "name": "Saud Abdulhamid",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-5",
+          "name": "Hassan Al-Tambakti",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-6",
+          "name": "Abdulelah Al-Amri",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-7",
+          "name": "Nawaf Boushal",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-8",
+          "name": "Ali Lajami",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-9",
+          "name": "Ali Majrashi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-10",
+          "name": "Hassan Kadesh",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-11",
+          "name": "Moteb Al-Harbi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-12",
+          "name": "Jehad Thakri",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-13",
+          "name": "Mohammed Abu Al-Shamat",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "ksa-14",
+          "name": "Salem Al-Dawsari",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-15",
+          "name": "Mohamed Kanno",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-16",
+          "name": "Nasser Al-Dawsari",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-17",
+          "name": "Abdullah Al-Khaibari",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-18",
+          "name": "Musab Al-Juwayr",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-19",
+          "name": "Ayman Yahya",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-20",
+          "name": "Ziyad Al-Johani",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-21",
+          "name": "Sultan Mandash",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-22",
+          "name": "Alaa Al-Hejji",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "ksa-23",
           "name": "Firas Al-Buraikan",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "ksa-3",
-          "name": "Mohammed Kanno",
-          "pos": "MF",
+          "id": "ksa-24",
+          "name": "Saleh Al-Shehri",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ksa-25",
+          "name": "Abdullah Al-Hamdan",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "ksa-26",
+          "name": "Khalid Al-Ghannam",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1100,26 +5238,158 @@
       "players": [
         {
           "id": "uru-1",
-          "name": "Federico Valverde",
-          "pos": "MF",
+          "name": "Fernando Muslera",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "uru-2",
-          "name": "Darwin Núñez",
-          "pos": "FW",
+          "name": "Sergio Rochet",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "uru-3",
+          "name": "Santiago Mele",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "uru-4",
+          "name": "José María Giménez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-5",
+          "name": "Matías Viña",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-6",
+          "name": "Mathías Olivera",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-7",
+          "name": "Guillermo Varela",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-8",
           "name": "Ronald Araújo",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "uru-4",
+          "id": "uru-9",
+          "name": "Sebastián Cáceres",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-10",
+          "name": "Joaquín Piquerez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-11",
+          "name": "Santiago Bueno",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uru-12",
           "name": "Rodrigo Bentancur",
           "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-13",
+          "name": "Federico Valverde",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-14",
+          "name": "Giorgian de Arrascaeta",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-15",
+          "name": "Facundo Pellistri",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-16",
+          "name": "Manuel Ugarte",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-17",
+          "name": "Nicolás de la Cruz",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-18",
+          "name": "Brian Rodríguez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-19",
+          "name": "Maximiliano Araújo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-20",
+          "name": "Agustín Canobbio",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-21",
+          "name": "Emiliano Martínez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-22",
+          "name": "Rodrigo Zalazar",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-23",
+          "name": "Juan Manuel Sanabria",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uru-24",
+          "name": "Darwin Núñez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uru-25",
+          "name": "Federico Viñas",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uru-26",
+          "name": "Rodrigo Aguirre",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1134,27 +5404,159 @@
       "players": [
         {
           "id": "fra-1",
-          "name": "Kylian Mbappé",
-          "pos": "FW",
-          "number": null
+          "name": "Brice Samba",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "fra-2",
-          "name": "Aurélien Tchouaméni",
-          "pos": "MF",
-          "number": null
+          "name": "Mike Maignan",
+          "pos": "GK",
+          "number": 16
         },
         {
           "id": "fra-3",
-          "name": "Ousmane Dembélé",
-          "pos": "FW",
-          "number": null
+          "name": "Robin Risser",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "fra-4",
-          "name": "Mike Maignan",
-          "pos": "GK",
-          "number": null
+          "name": "Malo Gusto",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "fra-5",
+          "name": "Lucas Digne",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "fra-6",
+          "name": "Dayot Upamecano",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "fra-7",
+          "name": "Jules Koundé",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "fra-8",
+          "name": "Ibrahima Konaté",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "fra-9",
+          "name": "William Saliba",
+          "pos": "DF",
+          "number": 17
+        },
+        {
+          "id": "fra-10",
+          "name": "Théo Hernandez",
+          "pos": "DF",
+          "number": 19
+        },
+        {
+          "id": "fra-11",
+          "name": "Lucas Hernandez",
+          "pos": "DF",
+          "number": 21
+        },
+        {
+          "id": "fra-12",
+          "name": "Maxence Lacroix",
+          "pos": "DF",
+          "number": 26
+        },
+        {
+          "id": "fra-13",
+          "name": "Manu Koné",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "fra-14",
+          "name": "Aurélien Tchouaméni",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "fra-15",
+          "name": "N'Golo Kanté",
+          "pos": "MF",
+          "number": 13
+        },
+        {
+          "id": "fra-16",
+          "name": "Adrien Rabiot",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "fra-17",
+          "name": "Warren Zaïre-Emery",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "fra-18",
+          "name": "Ousmane Dembélé",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "fra-19",
+          "name": "Marcus Thuram",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "fra-20",
+          "name": "Kylian Mbappé",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "fra-21",
+          "name": "Michael Olise",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "fra-22",
+          "name": "Bradley Barcola",
+          "pos": "FW",
+          "number": 12
+        },
+        {
+          "id": "fra-23",
+          "name": "Désiré Doué",
+          "pos": "FW",
+          "number": 20
+        },
+        {
+          "id": "fra-24",
+          "name": "Jean-Philippe Mateta",
+          "pos": "FW",
+          "number": 22
+        },
+        {
+          "id": "fra-25",
+          "name": "Rayan Cherki",
+          "pos": "FW",
+          "number": 24
+        },
+        {
+          "id": "fra-26",
+          "name": "Maghnes Akliouche",
+          "pos": "FW",
+          "number": 25
         }
       ]
     },
@@ -1168,25 +5570,157 @@
       "players": [
         {
           "id": "sen-1",
-          "name": "Nicolas Jackson",
-          "pos": "FW",
+          "name": "Édouard Mendy",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "sen-2",
-          "name": "Pape Matar Sarr",
-          "pos": "MF",
+          "name": "Mory Diaw",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "sen-3",
+          "name": "Yehvann Diouf",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "sen-4",
           "name": "Kalidou Koulibaly",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "sen-4",
+          "id": "sen-5",
+          "name": "Krépin Diatta",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-6",
+          "name": "Moussa Niakhaté",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-7",
+          "name": "Ismail Jakobs",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-8",
+          "name": "Abdoulaye Seck",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-9",
+          "name": "El Hadji Malick Diouf",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-10",
+          "name": "Mamadou Sarr",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-11",
+          "name": "Antoine Mendy",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-12",
+          "name": "Ilay Camara",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-13",
+          "name": "Moustapha Mbow",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "sen-14",
+          "name": "Idrissa Gueye",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-15",
+          "name": "Pape Gueye",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-16",
+          "name": "Pape Matar Sarr",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-17",
+          "name": "Lamine Camara",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-18",
+          "name": "Pathé Ciss",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-19",
+          "name": "Habib Diarra",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-20",
+          "name": "Bara Sapoko Ndiaye",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "sen-21",
+          "name": "Sadio Mané",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-22",
           "name": "Ismaïla Sarr",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-23",
+          "name": "Iliman Ndiaye",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-24",
+          "name": "Nicolas Jackson",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-25",
+          "name": "Bamba Dieng",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "sen-26",
+          "name": "Cherif Ndiaye",
           "pos": "FW",
           "number": null
         }
@@ -1202,19 +5736,157 @@
       "players": [
         {
           "id": "irq-1",
-          "name": "Aymen Hussein",
-          "pos": "FW",
+          "name": "Jalal Hassan",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "irq-2",
+          "name": "Fahad Talib",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "irq-3",
+          "name": "Ahmed Basil",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "irq-4",
+          "name": "Rebin Sulaka",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-5",
+          "name": "Manaf Younis",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-6",
+          "name": "Merchas Doski",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-7",
+          "name": "Zaid Tahseen",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-8",
+          "name": "Frans Putros",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-9",
+          "name": "Hussein Ali",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-10",
+          "name": "Ahmed Yahya",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-11",
+          "name": "Mustafa Saadoon",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-12",
+          "name": "Akam Hashim",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "irq-13",
+          "name": "Ibrahim Bayesh",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-14",
+          "name": "Amir Al-Ammari",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-15",
+          "name": "Ali Jasim",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-16",
+          "name": "Youssef Amyn",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-17",
           "name": "Zidane Iqbal",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "irq-3",
-          "name": "Ali Jasim",
+          "id": "irq-18",
+          "name": "Marko Farji",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-19",
+          "name": "Kevin Yakob",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-20",
+          "name": "Aimar Sher",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-21",
+          "name": "Zaid Ismail",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-22",
+          "name": "Ahmed Qasem",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "irq-23",
+          "name": "Aymen Hussein",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irq-24",
+          "name": "Mohanad Ali",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irq-25",
+          "name": "Ali Al-Hamadi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "irq-26",
+          "name": "Ali Yousif",
           "pos": "FW",
           "number": null
         }
@@ -1230,21 +5902,159 @@
       "players": [
         {
           "id": "nor-1",
-          "name": "Erling Haaland",
-          "pos": "FW",
-          "number": null
+          "name": "Ørjan Nyland",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "nor-2",
-          "name": "Martin Ødegaard",
-          "pos": "MF",
-          "number": null
+          "name": "Sander Tangvik",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "nor-3",
+          "name": "Egil Selvik",
+          "pos": "GK",
+          "number": 13
+        },
+        {
+          "id": "nor-4",
+          "name": "Kristoffer Ajer",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "nor-5",
+          "name": "Leo Østigård",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "nor-6",
+          "name": "David Møller Wolfe",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "nor-7",
+          "name": "Fredrik André Bjørkan",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "nor-8",
+          "name": "Marcus Holmgren Pedersen",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "nor-9",
+          "name": "Torbjørn Heggem",
+          "pos": "DF",
+          "number": 17
+        },
+        {
+          "id": "nor-10",
+          "name": "Sondre Langås",
+          "pos": "DF",
+          "number": 24
+        },
+        {
+          "id": "nor-11",
+          "name": "Henrik Falchener",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "nor-12",
+          "name": "Julian Ryerson",
+          "pos": "DF",
+          "number": 26
+        },
+        {
+          "id": "nor-13",
+          "name": "Morten Thorsby",
+          "pos": "MF",
+          "number": 2
+        },
+        {
+          "id": "nor-14",
+          "name": "Patrick Berg",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "nor-15",
+          "name": "Sander Berge",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "nor-16",
+          "name": "Martin Ødegaard",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "nor-17",
+          "name": "Fredrik Aursnes",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "nor-18",
+          "name": "Kristian Thorstvedt",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "nor-19",
+          "name": "Thelo Aasgaard",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "nor-20",
+          "name": "Antonio Nusa",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "nor-21",
+          "name": "Andreas Schjelderup",
+          "pos": "MF",
+          "number": 21
+        },
+        {
+          "id": "nor-22",
+          "name": "Oscar Bobb",
+          "pos": "MF",
+          "number": 22
+        },
+        {
+          "id": "nor-23",
+          "name": "Jens Petter Hauge",
+          "pos": "MF",
+          "number": 23
+        },
+        {
+          "id": "nor-24",
           "name": "Alexander Sørloth",
           "pos": "FW",
-          "number": null
+          "number": 7
+        },
+        {
+          "id": "nor-25",
+          "name": "Erling Haaland",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "nor-26",
+          "name": "Jørgen Strand Larsen",
+          "pos": "FW",
+          "number": 11
         }
       ]
     },
@@ -1258,33 +6068,159 @@
       "players": [
         {
           "id": "arg-1",
-          "name": "Lionel Messi",
-          "pos": "FW",
-          "number": null
+          "name": "Juan Musso",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "arg-2",
-          "name": "Lautaro Martínez",
-          "pos": "FW",
-          "number": null
+          "name": "Gerónimo Rulli",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "arg-3",
-          "name": "Julián Álvarez",
-          "pos": "FW",
-          "number": null
+          "name": "Emiliano Martínez",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "arg-4",
-          "name": "Enzo Fernández",
-          "pos": "MF",
-          "number": null
+          "name": "Leonardo Balerdi",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "arg-5",
-          "name": "Emiliano Martínez",
-          "pos": "GK",
-          "number": null
+          "name": "Nicolás Tagliafico",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "arg-6",
+          "name": "Gonzalo Montiel",
+          "pos": "DF",
+          "number": 4
+        },
+        {
+          "id": "arg-7",
+          "name": "Lisandro Martínez",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "arg-8",
+          "name": "Cristian Romero",
+          "pos": "DF",
+          "number": 13
+        },
+        {
+          "id": "arg-9",
+          "name": "Nicolás Otamendi",
+          "pos": "DF",
+          "number": 19
+        },
+        {
+          "id": "arg-10",
+          "name": "Facundo Medina",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "arg-11",
+          "name": "Nahuel Molina",
+          "pos": "DF",
+          "number": 26
+        },
+        {
+          "id": "arg-12",
+          "name": "Leandro Paredes",
+          "pos": "MF",
+          "number": 5
+        },
+        {
+          "id": "arg-13",
+          "name": "Rodrigo De Paul",
+          "pos": "MF",
+          "number": 7
+        },
+        {
+          "id": "arg-14",
+          "name": "Valentín Barco",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "arg-15",
+          "name": "Giovani Lo Celso",
+          "pos": "MF",
+          "number": 11
+        },
+        {
+          "id": "arg-16",
+          "name": "Exequiel Palacios",
+          "pos": "MF",
+          "number": 14
+        },
+        {
+          "id": "arg-17",
+          "name": "Alexis Mac Allister",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "arg-18",
+          "name": "Enzo Fernández",
+          "pos": "MF",
+          "number": 24
+        },
+        {
+          "id": "arg-19",
+          "name": "Julián Alvarez",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "arg-20",
+          "name": "Lionel Messi",
+          "pos": "FW",
+          "number": 10
+        },
+        {
+          "id": "arg-21",
+          "name": "Nicolás González",
+          "pos": "FW",
+          "number": 15
+        },
+        {
+          "id": "arg-22",
+          "name": "Thiago Almada",
+          "pos": "FW",
+          "number": 16
+        },
+        {
+          "id": "arg-23",
+          "name": "Giuliano Simeone",
+          "pos": "FW",
+          "number": 17
+        },
+        {
+          "id": "arg-24",
+          "name": "Nico Paz",
+          "pos": "FW",
+          "number": 18
+        },
+        {
+          "id": "arg-25",
+          "name": "José Manuel López",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "arg-26",
+          "name": "Lautaro Martínez",
+          "pos": "FW",
+          "number": 22
         }
       ]
     },
@@ -1298,20 +6234,158 @@
       "players": [
         {
           "id": "alg-1",
+          "name": "Luca Zidane",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "alg-2",
+          "name": "Oussama Benbot",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "alg-3",
+          "name": "Melvin Mastil",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "alg-4",
+          "name": "Aïssa Mandi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-5",
+          "name": "Ramy Bensebaini",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-6",
+          "name": "Mohamed Amine Tougai",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-7",
+          "name": "Rayan Aït-Nouri",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-8",
+          "name": "Jaouen Hadjam",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-9",
+          "name": "Rafik Belghali",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-10",
+          "name": "Zineddine Belaïd",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-11",
+          "name": "Achref Abada",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-12",
+          "name": "Samir Chergui",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "alg-13",
+          "name": "Nabil Bentaleb",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-14",
+          "name": "Ramiz Zerrouki",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-15",
+          "name": "Hicham Boudaoui",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-16",
+          "name": "Farès Chaïbi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-17",
+          "name": "Houssem Aouar",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-18",
+          "name": "Ibrahim Maza",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-19",
+          "name": "Yacine Titraoui",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "alg-20",
           "name": "Riyad Mahrez",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "alg-2",
-          "name": "Ismaël Bennacer",
-          "pos": "MF",
+          "id": "alg-21",
+          "name": "Mohamed Amoura",
+          "pos": "FW",
           "number": null
         },
         {
-          "id": "alg-3",
-          "name": "Houssem Aouar",
-          "pos": "MF",
+          "id": "alg-22",
+          "name": "Amine Gouiri",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "alg-23",
+          "name": "Anis Hadj Moussa",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "alg-24",
+          "name": "Adil Boulbina",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "alg-25",
+          "name": "Nadhir Benbouali",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "alg-26",
+          "name": "Farès Ghedjemis",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1326,27 +6400,159 @@
       "players": [
         {
           "id": "aut-1",
-          "name": "Marcel Sabitzer",
-          "pos": "MF",
-          "number": null
+          "name": "Alexander Schlager",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "aut-2",
-          "name": "David Alaba",
-          "pos": "DF",
-          "number": null
+          "name": "Florian Wiegele",
+          "pos": "GK",
+          "number": 12
         },
         {
           "id": "aut-3",
-          "name": "Konrad Laimer",
-          "pos": "MF",
-          "number": null
+          "name": "Patrick Pentz",
+          "pos": "GK",
+          "number": 13
         },
         {
           "id": "aut-4",
+          "name": "David Affengruber",
+          "pos": "DF",
+          "number": 2
+        },
+        {
+          "id": "aut-5",
+          "name": "Kevin Danso",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "aut-6",
+          "name": "Stefan Posch",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "aut-7",
+          "name": "David Alaba",
+          "pos": "DF",
+          "number": 8
+        },
+        {
+          "id": "aut-8",
+          "name": "Philipp Lienhart",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "aut-9",
+          "name": "Phillipp Mwene",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "aut-10",
+          "name": "Alexander Prass",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "aut-11",
+          "name": "Marco Friedl",
+          "pos": "DF",
+          "number": 23
+        },
+        {
+          "id": "aut-12",
+          "name": "Michael Svoboda",
+          "pos": "DF",
+          "number": 25
+        },
+        {
+          "id": "aut-13",
+          "name": "Xaver Schlager",
+          "pos": "MF",
+          "number": 4
+        },
+        {
+          "id": "aut-14",
+          "name": "Nicolas Seiwald",
+          "pos": "MF",
+          "number": 6
+        },
+        {
+          "id": "aut-15",
+          "name": "Florian Grillitsch",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "aut-16",
+          "name": "Carney Chukwuemeka",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "aut-17",
+          "name": "Romano Schmid",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "aut-18",
+          "name": "Christoph Baumgartner",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "aut-19",
+          "name": "Konrad Laimer",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "aut-20",
+          "name": "Patrick Wimmer",
+          "pos": "MF",
+          "number": 21
+        },
+        {
+          "id": "aut-21",
+          "name": "Paul Wanner",
+          "pos": "MF",
+          "number": 24
+        },
+        {
+          "id": "aut-22",
+          "name": "Alessandro Schöpf",
+          "pos": "MF",
+          "number": 26
+        },
+        {
+          "id": "aut-23",
           "name": "Marko Arnautović",
           "pos": "FW",
-          "number": null
+          "number": 7
+        },
+        {
+          "id": "aut-24",
+          "name": "Marcel Sabitzer",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "aut-25",
+          "name": "Michael Gregoritsch",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "aut-26",
+          "name": "Saša Kalajdžić",
+          "pos": "FW",
+          "number": 14
         }
       ]
     },
@@ -1360,20 +6566,158 @@
       "players": [
         {
           "id": "jor-1",
-          "name": "Mousa Al-Taamari",
-          "pos": "FW",
+          "name": "Yazeed Abulaila",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "jor-2",
-          "name": "Yazan Al-Naimat",
-          "pos": "FW",
+          "name": "Abdallah Al-Fakhouri",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "jor-3",
+          "name": "Nour Bani Attiah",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "jor-4",
+          "name": "Ihsan Haddad",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-5",
+          "name": "Yazan Al-Arab",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-6",
+          "name": "Abdallah Nasib",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-7",
+          "name": "Saed Al-Rosan",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-8",
+          "name": "Husam Abu Dahab",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-9",
+          "name": "Mo Abualnadi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-10",
+          "name": "Salim Obaid",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-11",
+          "name": "Anas Badawi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "jor-12",
+          "name": "Rajaei Ayed",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-13",
+          "name": "Noor Al-Rawabdeh",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-14",
+          "name": "Ibrahim Sadeh",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-15",
+          "name": "Mohammad Abu Hashish",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-16",
           "name": "Nizar Al-Rashdan",
           "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-17",
+          "name": "Mohannad Abu Taha",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-18",
+          "name": "Amer Jamous",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-19",
+          "name": "Mohammad Al-Dawoud",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-20",
+          "name": "Yousef Qashi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-21",
+          "name": "Mohammad Taha",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "jor-22",
+          "name": "Musa Al-Taamari",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-23",
+          "name": "Mahmoud Al-Mardi",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-24",
+          "name": "Ali Olwan",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-25",
+          "name": "Mohammad Abu Zrayq",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "jor-26",
+          "name": "Odeh Al-Fakhouri",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1388,26 +6732,158 @@
       "players": [
         {
           "id": "por-1",
-          "name": "Cristiano Ronaldo",
-          "pos": "FW",
+          "name": "Diogo Costa",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "por-2",
+          "name": "Rui Silva",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "por-3",
+          "name": "José Sá",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "por-4",
+          "name": "Rúben Dias",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-5",
+          "name": "Gonçalo Inácio",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-6",
+          "name": "João Cancelo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-7",
+          "name": "Nuno Mendes",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-8",
+          "name": "Diogo Dalot",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-9",
+          "name": "Nélson Semedo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-10",
+          "name": "Tomás Araújo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-11",
+          "name": "Renato Veiga",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "por-12",
+          "name": "Vitinha",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-13",
+          "name": "João Neves",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-14",
           "name": "Bruno Fernandes",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "por-3",
+          "id": "por-15",
+          "name": "Rúben Neves",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-16",
+          "name": "Matheus Nunes",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-17",
+          "name": "Samu Costa",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-18",
+          "name": "Bernardo Silva",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "por-19",
+          "name": "Cristiano Ronaldo",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-20",
+          "name": "Francisco Trincão",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-21",
+          "name": "João Félix",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-22",
+          "name": "Gonçalo Ramos",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-23",
+          "name": "Pedro Neto",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-24",
+          "name": "Francisco Conceição",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "por-25",
           "name": "Rafael Leão",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "por-4",
-          "name": "Bernardo Silva",
-          "pos": "MF",
+          "id": "por-26",
+          "name": "Gonçalo Guedes",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1422,19 +6898,157 @@
       "players": [
         {
           "id": "cod-1",
-          "name": "Cédric Bakambu",
-          "pos": "FW",
+          "name": "Lionel Mpasi",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "cod-2",
+          "name": "Timothy Fayulu",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cod-3",
+          "name": "Matthieu Epolo",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cod-4",
           "name": "Chancel Mbemba",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "cod-3",
+          "id": "cod-5",
+          "name": "Arthur Masuaku",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-6",
+          "name": "Gédéon Kalulu",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-7",
+          "name": "Joris Kayembe",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-8",
+          "name": "Dylan Batubinsika",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-9",
+          "name": "Axel Tuanzebe",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-10",
+          "name": "Aaron Wan-Bissaka",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-11",
+          "name": "Steve Kapuadi",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cod-12",
+          "name": "Samuel Moutoussamy",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-13",
+          "name": "Edo Kayembe",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-14",
+          "name": "Charles Pickel",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-15",
+          "name": "Gaël Kakuta",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-16",
+          "name": "Noah Sadiki",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-17",
+          "name": "Aaron Tshibola",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-18",
+          "name": "Ngal'ayel Mukau",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-19",
+          "name": "Brian Cipenga",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cod-20",
+          "name": "Cédric Bakambu",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-21",
+          "name": "Meschak Elia",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-22",
+          "name": "Théo Bongonda",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-23",
+          "name": "Fiston Mayele",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-24",
           "name": "Yoane Wissa",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-25",
+          "name": "Nathanaël Mbuku",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cod-26",
+          "name": "Simon Banza",
           "pos": "FW",
           "number": null
         }
@@ -1450,20 +7064,158 @@
       "players": [
         {
           "id": "uzb-1",
-          "name": "Eldor Shomurodov",
-          "pos": "FW",
+          "name": "Utkir Yusupov",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "uzb-2",
+          "name": "Abduvohid Nematov",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "uzb-3",
+          "name": "Botirali Ergashev",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "uzb-4",
+          "name": "Abdukodir Khusanov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-5",
+          "name": "Khojiakbar Alijonov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-6",
+          "name": "Farrukh Sayfiev",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-7",
+          "name": "Rustam Ashurmatov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-8",
+          "name": "Sherzod Nasrullaev",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-9",
+          "name": "Umar Eshmurodov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-10",
+          "name": "Abdulla Abdullaev",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-11",
+          "name": "Bekhruz Karimov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-12",
+          "name": "Avazbek Ulmasaliev",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-13",
+          "name": "Jakhongir Urozov",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "uzb-14",
+          "name": "Akmal Mozgovoy",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-15",
+          "name": "Otabek Shukurov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-16",
+          "name": "Jamshid Iskanderov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-17",
+          "name": "Odiljon Hamrobekov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-18",
+          "name": "Jaloliddin Masharipov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-19",
+          "name": "Oston Urunov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-20",
+          "name": "Dostonbek Khamdamov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-21",
+          "name": "Azizjon Ganiev",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-22",
           "name": "Abbosbek Fayzullaev",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "uzb-3",
-          "name": "Khusniddin Alikulov",
-          "pos": "DF",
+          "id": "uzb-23",
+          "name": "Sherzod Esanov",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "uzb-24",
+          "name": "Eldor Shomurodov",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uzb-25",
+          "name": "Azizbek Amonov",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "uzb-26",
+          "name": "Igor Sergeev",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1478,26 +7230,158 @@
       "players": [
         {
           "id": "col-1",
-          "name": "Luis Díaz",
-          "pos": "FW",
+          "name": "David Ospina",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "col-2",
+          "name": "Camilo Vargas",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "col-3",
+          "name": "Álvaro Montero",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "col-4",
+          "name": "Davinson Sánchez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-5",
+          "name": "Santiago Arias",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-6",
+          "name": "Yerry Mina",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-7",
+          "name": "Daniel Muñoz",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-8",
+          "name": "Johan Mojica",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-9",
+          "name": "Jhon Lucumí",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-10",
+          "name": "Deiver Machado",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-11",
+          "name": "Willer Ditta",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "col-12",
           "name": "James Rodríguez",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "col-3",
-          "name": "Jhon Durán",
+          "id": "col-13",
+          "name": "Jefferson Lerma",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-14",
+          "name": "Juan Fernando Quintero",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-15",
+          "name": "Jhon Arias",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-16",
+          "name": "Richard Ríos",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-17",
+          "name": "Kevin Castaño",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-18",
+          "name": "Jorge Carrascal",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-19",
+          "name": "Jaminton Campaz",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-20",
+          "name": "Juan Portilla",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-21",
+          "name": "Gustavo Puerta",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "col-22",
+          "name": "Luis Díaz",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "col-4",
-          "name": "Richard Ríos",
-          "pos": "MF",
+          "id": "col-23",
+          "name": "Jhon Córdoba",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "col-24",
+          "name": "Luis Suárez",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "col-25",
+          "name": "Cucho Hernández",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "col-26",
+          "name": "Andrés Gómez",
+          "pos": "FW",
           "number": null
         }
       ]
@@ -1512,33 +7396,159 @@
       "players": [
         {
           "id": "eng-1",
-          "name": "Jude Bellingham",
-          "pos": "MF",
-          "number": null
+          "name": "Jordan Pickford",
+          "pos": "GK",
+          "number": 1
         },
         {
           "id": "eng-2",
-          "name": "Harry Kane",
-          "pos": "FW",
-          "number": null
+          "name": "Dean Henderson",
+          "pos": "GK",
+          "number": 13
         },
         {
           "id": "eng-3",
-          "name": "Bukayo Saka",
-          "pos": "FW",
-          "number": null
+          "name": "James Trafford",
+          "pos": "GK",
+          "number": 23
         },
         {
           "id": "eng-4",
-          "name": "Eberechi Eze",
-          "pos": "MF",
-          "number": null
+          "name": "Reece James",
+          "pos": "DF",
+          "number": 2
         },
         {
           "id": "eng-5",
+          "name": "Nico O'Reilly",
+          "pos": "DF",
+          "number": 3
+        },
+        {
+          "id": "eng-6",
+          "name": "John Stones",
+          "pos": "DF",
+          "number": 5
+        },
+        {
+          "id": "eng-7",
+          "name": "Marc Guéhi",
+          "pos": "DF",
+          "number": 6
+        },
+        {
+          "id": "eng-8",
+          "name": "Ezri Konsa",
+          "pos": "DF",
+          "number": 12
+        },
+        {
+          "id": "eng-9",
+          "name": "Dan Burn",
+          "pos": "DF",
+          "number": 14
+        },
+        {
+          "id": "eng-10",
+          "name": "Jarell Quansah",
+          "pos": "DF",
+          "number": 15
+        },
+        {
+          "id": "eng-11",
+          "name": "Tino Livramento",
+          "pos": "DF",
+          "number": 16
+        },
+        {
+          "id": "eng-12",
+          "name": "Djed Spence",
+          "pos": "DF",
+          "number": 22
+        },
+        {
+          "id": "eng-13",
           "name": "Declan Rice",
           "pos": "MF",
-          "number": null
+          "number": 4
+        },
+        {
+          "id": "eng-14",
+          "name": "Jordan Henderson",
+          "pos": "MF",
+          "number": 8
+        },
+        {
+          "id": "eng-15",
+          "name": "Jude Bellingham",
+          "pos": "MF",
+          "number": 10
+        },
+        {
+          "id": "eng-16",
+          "name": "Elliot Anderson",
+          "pos": "MF",
+          "number": 17
+        },
+        {
+          "id": "eng-17",
+          "name": "Kobbie Mainoo",
+          "pos": "MF",
+          "number": 18
+        },
+        {
+          "id": "eng-18",
+          "name": "Eberechi Eze",
+          "pos": "MF",
+          "number": 19
+        },
+        {
+          "id": "eng-19",
+          "name": "Morgan Rogers",
+          "pos": "MF",
+          "number": 20
+        },
+        {
+          "id": "eng-20",
+          "name": "Bukayo Saka",
+          "pos": "FW",
+          "number": 7
+        },
+        {
+          "id": "eng-21",
+          "name": "Harry Kane",
+          "pos": "FW",
+          "number": 9
+        },
+        {
+          "id": "eng-22",
+          "name": "Marcus Rashford",
+          "pos": "FW",
+          "number": 11
+        },
+        {
+          "id": "eng-23",
+          "name": "Anthony Gordon",
+          "pos": "FW",
+          "number": 21
+        },
+        {
+          "id": "eng-24",
+          "name": "Noni Madueke",
+          "pos": "FW",
+          "number": 24
+        },
+        {
+          "id": "eng-25",
+          "name": "Ollie Watkins",
+          "pos": "FW",
+          "number": 25
+        },
+        {
+          "id": "eng-26",
+          "name": "Ivan Toney",
+          "pos": "FW",
+          "number": 26
         }
       ]
     },
@@ -1552,31 +7562,157 @@
       "players": [
         {
           "id": "cro-1",
-          "name": "Luka Modrić",
-          "pos": "MF",
+          "name": "Dominik Livaković",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "cro-2",
+          "name": "Dominik Kotarski",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cro-3",
+          "name": "Ivor Pandur",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "cro-4",
           "name": "Joško Gvardiol",
           "pos": "DF",
           "number": null
         },
         {
-          "id": "cro-3",
+          "id": "cro-5",
+          "name": "Duje Ćaleta-Car",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-6",
+          "name": "Josip Šutalo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-7",
+          "name": "Josip Stanišić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-8",
+          "name": "Marin Pongračić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-9",
+          "name": "Martin Erlić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-10",
+          "name": "Luka Vušković",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-11",
+          "name": "Ivan Smolčić",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "cro-12",
+          "name": "Luka Modrić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-13",
           "name": "Mateo Kovačić",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "cro-4",
+          "id": "cro-14",
+          "name": "Mario Pašalić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-15",
+          "name": "Nikola Vlašić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-16",
+          "name": "Luka Sučić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-17",
+          "name": "Martin Baturina",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-18",
+          "name": "Kristijan Jakić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-19",
+          "name": "Petar Sučić",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-20",
+          "name": "Nikola Moro",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-21",
+          "name": "Lovro Majer",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "cro-22",
+          "name": "Ivan Perišić",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cro-23",
           "name": "Andrej Kramarić",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "cro-5",
-          "name": "Bruno Petković",
+          "id": "cro-24",
+          "name": "Ante Budimir",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cro-25",
+          "name": "Marco Pašalić",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "cro-26",
+          "name": "Petar Musa",
           "pos": "FW",
           "number": null
         }
@@ -1592,25 +7728,157 @@
       "players": [
         {
           "id": "gha-1",
-          "name": "Mohammed Kudus",
-          "pos": "MF",
+          "name": "Lawrence Ati-Zigi",
+          "pos": "GK",
           "number": null
         },
         {
           "id": "gha-2",
+          "name": "Joseph Anang",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "gha-3",
+          "name": "Benjamin Asare",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "gha-4",
+          "name": "Alidu Seidu",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-5",
+          "name": "Jonas Adjetey",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-6",
+          "name": "Abdul Mumin",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-7",
+          "name": "Gideon Mensah",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-8",
+          "name": "Abdul Rahman Baba",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-9",
+          "name": "Jerome Opoku",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-10",
+          "name": "Kojo Peprah Oppong",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-11",
+          "name": "Derrick Luckassen",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-12",
+          "name": "Marvin Senaya",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "gha-13",
+          "name": "Caleb Yirenkyi",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-14",
           "name": "Thomas Partey",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "gha-3",
-          "name": "Iñaki Williams",
+          "id": "gha-15",
+          "name": "Kwasi Sibo",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-16",
+          "name": "Elisha Owusu",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-17",
+          "name": "Augustine Boakye",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "gha-18",
+          "name": "Antoine Semenyo",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "gha-4",
+          "id": "gha-19",
+          "name": "Abdul Fatawu",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-20",
           "name": "Jordan Ayew",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-21",
+          "name": "Brandon Thomas-Asante",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-22",
+          "name": "Christopher Bonsu Baah",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-23",
+          "name": "Inaki Williams",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-24",
+          "name": "Kamaldeen Sulemana",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-25",
+          "name": "Ernest Nuamah",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "gha-26",
+          "name": "Prince Kwabena Adu",
           "pos": "FW",
           "number": null
         }
@@ -1626,20 +7894,158 @@
       "players": [
         {
           "id": "pan-1",
+          "name": "Orlando Mosquera",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "pan-2",
+          "name": "Luis Mejía",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "pan-3",
+          "name": "César Samudio",
+          "pos": "GK",
+          "number": null
+        },
+        {
+          "id": "pan-4",
+          "name": "César Blackman",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-5",
+          "name": "Jorge Gutiérrez",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-6",
+          "name": "Amir Murillo",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-7",
+          "name": "Fidel Escobar",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-8",
+          "name": "Andrés Andrade",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-9",
+          "name": "Edgardo Fariña",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-10",
+          "name": "José Córdoba",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-11",
+          "name": "Eric Davis",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-12",
+          "name": "Jiovany Ramos",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-13",
+          "name": "Roderick Miller",
+          "pos": "DF",
+          "number": null
+        },
+        {
+          "id": "pan-14",
+          "name": "Aníbal Godoy",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-15",
           "name": "Adalberto Carrasquilla",
           "pos": "MF",
           "number": null
         },
         {
-          "id": "pan-2",
+          "id": "pan-16",
+          "name": "Carlos Harvey",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-17",
+          "name": "Cristian Martínez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-18",
+          "name": "José Luis Rodríguez",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-19",
+          "name": "César Yanis",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-20",
+          "name": "Yoel Bárcenas",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-21",
+          "name": "Alberto Quintero",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-22",
+          "name": "Azarías Londoño",
+          "pos": "MF",
+          "number": null
+        },
+        {
+          "id": "pan-23",
+          "name": "Ismael Díaz",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "pan-24",
+          "name": "Cecilio Waterman",
+          "pos": "FW",
+          "number": null
+        },
+        {
+          "id": "pan-25",
           "name": "José Fajardo",
           "pos": "FW",
           "number": null
         },
         {
-          "id": "pan-3",
-          "name": "Michael Murillo",
-          "pos": "DF",
+          "id": "pan-26",
+          "name": "Tomás Rodríguez",
+          "pos": "FW",
           "number": null
         }
       ]
